@@ -254,3 +254,124 @@ input[type="file"] {
     text-align: center;
     margin-top: 70px;
 }
+.es_img2{
+  width:25px;
+  height: 25px;
+}
+.es_font5{
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 10px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+.es_div1_salary{
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.es_img3{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.es_div2_salary{
+  margin-left: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.es_div3_salary{
+  background-color: rgb(6, 130, 146);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 390px;
+}
+.es_font6{
+  font-size: 32px;
+  font-weight: 400;
+}
+.es_button3{
+  background-color: rgb(6, 130, 146);
+  color: white;
+  border: 1px white solid;
+  height: 45px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.es_button3:hover{
+  background-color: rgb(6, 130, 146);
+  color: white;
+  border: 2px white solid;
+  height: 45px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.es_img4{
+  width: 80px;
+  height: 35px;
+}
+.es_card_job{
+  padding: 25px 10px 25px 25px;
+  border-bottom:0 ;
+  border-radius: 0;
+}
+.es_cards_job{
+  padding: 35px 100px ;
+}
+.es_div2_job{
+  padding-bottom: 25px;
+  padding-left: 100px;
+  background-color: rgb(248, 245, 245);
+  padding-top: 25px;
+}
+.es_div1_job{
+  padding-left: 100px;
+  padding-right: 1050px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+}
+.es_div3_job{
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-bottom: 35px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.es_img5{
+width: 18px;
+height: 18px;
+margin-right: 10px;
+}
+.es_div4_job{
+  margin-left: 70px;
+}
+.es_btn{
+  border-left: 4px solid #095bc7;
+}
+.es_div5_job{
+  margin-right: 25px;
+  border-bottom: 1px lightgray solid;
+}
+.es_link1{
+  text-decoration: none;
+  color: black;
+}
+.es_space{
+  margin-top: 20px;
+}
