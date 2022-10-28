@@ -375,3 +375,24 @@ margin-right: 10px;
 .es_space{
   margin-top: 20px;
 }
+.es_card_inter{
+  padding: 25px 0 25px 25px;
+  font-weight: 500;
+  font-size: 13px;
+  margin-right: 25px;
+}
+.es_space1{
+  margin-right: 20px;
+}
+.es_cards_inter{
+  padding: 20px 0 10px 0;
+  border-bottom: 1px lightgray solid;
+}
+.es_color{
+
+  background-color: #afcff8;
+}
+.es_inter{
+  color: rgb(8, 92, 8);
+  border-left: 3px solid rgb(8, 92, 8);
+}

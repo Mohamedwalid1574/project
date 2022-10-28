@@ -6,11 +6,13 @@ import Salary from './view/jobs/sideBar/salary';
 import JobSeekerfirst from './view/jobs/sideBar/jobseek/jobSeekerGudiance';
 import JobSeekersecond from './view/jobs/sideBar/jobseek/jobseeksecond';
 import Checklist from './view/jobs/sideBar/jobseek/chesclist';
+import Skills from './view/jobs/sideBar/skillAssessments';
+import Interview from './view/jobs/sideBar/interviewPrep';
 
 function App() {
   return (
     <>
-    <Checklist/>
+    <Interview/>
     </>
   );
 }
