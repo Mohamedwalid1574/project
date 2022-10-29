@@ -25,11 +25,11 @@ function JobSeekersecond()
                 </div>
                 <div className='d-flex es_cards_job'>
                     <div className='es_div5_job'>
-                        <div  className='card es_card_job '><a href='#' className='es_link1'>1. I want to improve my resume</a></div>
-                        <div  className='card es_card_job es_btn'><a href='#' className='es_link'>2. I want to inprove my linkedin profile page</a></div>
-                        <div  className='card es_card_job'><a href='#' className='es_link1'>3. I want to get a referral</a></div>
-                        <div  className='card es_card_job'><a href='#' className='es_link1'>4. I want to use linkedin to network to find a job</a></div>
-                        <div  className='card es_card_job'><a href='#' className='es_link1'>5. Checklist of best practices for getting a job</a></div>
+                        <div  className='card es_card_job '><a href='/first' className='es_link1'>1. I want to improve my resume</a></div>
+                        <div  className='card es_card_job es_btn'><a href='/second' className='es_link'>2. I want to inprove my linkedin profile page</a></div>
+                        <div  className='card es_card_job'><a href='/third' className='es_link1'>3. I want to get a referral</a></div>
+                        <div  className='card es_card_job'><a href='/forth' className='es_link1'>4. I want to use linkedin to network to find a job</a></div>
+                        <div  className='card es_card_job'><a href='/check' className='es_link1'>5. Checklist of best practices for getting a job</a></div>
                     </div>
                     <div>
                     <div className='es_div3_job card'>

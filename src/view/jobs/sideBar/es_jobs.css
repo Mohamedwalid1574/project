@@ -396,3 +396,46 @@ margin-right: 10px;
   color: rgb(8, 92, 8);
   border-left: 3px solid rgb(8, 92, 8);
 }
+.es_div1_skill{
+  padding: 15px 30px;
+  border-right: 1px solid lightgray;
+}
+.es_font_color{
+  color: #0b72f8;
+  padding: 10px;
+}
+.es_div2_skill{
+    padding: 15px 30px 0;
+}
+
+.es_card_skill{
+  padding: 25px 25px 0;
+  height: 350px;
+}
+.es_img_skill{
+  margin-left: 130px;
+}
+.es_link2{
+  color: white;
+  text-decoration: none;
+}
+.es_link2:hover{
+  color: white;
+  text-decoration: none;
+}
+.es_img_skills{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 7px;
+}
+.es_link3{
+  color: gray;
+  text-decoration: none;
+
+}
+.es_link3:hover{
+  color: gray;
+  text-decoration: none;
+  
+}
