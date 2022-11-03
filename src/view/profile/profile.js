@@ -34,7 +34,7 @@ export default function Profile() {
                                     <p className="m-0">طالب في كليه الهندسه</p>
                                     <p className="opacity-50">markaz naghammdi, qena, egypt</p>
                                 </div>
-                                <div className="flex me-5">
+                                <div className="d-flex align-items-center me-5">
                                    
                                     <p className="ps-2 my-0">كليه الهندسه</p>
                                 </div>
@@ -53,7 +53,7 @@ export default function Profile() {
                             <p className="opacity-50 m-0 ms-2">Provide to you</p>
                             </div>
                             <div className="border p-3">
-                                <div className="flex" >
+                                <div className="d-flex align-items-center " >
                                     
                                     <p className="my-0">Stand out in recruiter searches</p>
                                 </div>
@@ -71,7 +71,7 @@ export default function Profile() {
                             </div>
                             </div>
                             <div className="d-flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
   <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
   <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
   <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
@@ -99,9 +99,9 @@ export default function Profile() {
                                         <p className="mt-0">gert discover, showcase cntent on your profile, and get access to creator tools</p>
                                     </div>
                                 </div>
-                                <hr className="hr" />
+                                <hr  />
                                 <div className="d-flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 16 16">
   <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
   <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
   <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
@@ -154,7 +154,7 @@ export default function Profile() {
                         <div className="card mt-2 ">
 
                             <h4 className="px-4 pt-4">interests</h4>
-                            <div className="px-4 flex justify-content-between">
+                            <div className="px-4 d-flex align-items-center  justify-content-between">
                                 <div className="mb-2">
                                     <div className="d-flex">
                                         <div><img src={friendphoto } className='friendphoto'/></div>
@@ -164,7 +164,7 @@ export default function Profile() {
 
                                             </p>
                                             <p className="opacity-50 my-0">93,237 followers</p>
-                                            <div className="btn border hav mt-2">following</div>
+                                            <div className="btn border  mt-2">following</div>
                                         </div>
 
                                     </div>
@@ -185,7 +185,7 @@ export default function Profile() {
                                 </div>
                             </div>
                             <hr className="hrfull" />
-                            <p className="text-center hav py-2 mb-0">show all 13 compines</p>
+                            <p className="text-center  py-2 mb-0">show all 13 compines</p>
                         </div>
                     </section>
                     <aside className="col-4 col-md-5 col-lg-4 mt-3">
@@ -209,7 +209,7 @@ export default function Profile() {
                         <div className="card mt-2 px-2 py-3">
                             <p className="top " >people you may know</p>
 
-                            <div className="d-flex mb-3 mar-left">
+                            <div className="d-flex mb-3 ">
                                 <div><img src={friendphoto } className='friendphoto'/></div>
                                 <div className="ms-2">
                                     <p className="mb-0">abdelrahman said</p>
@@ -218,7 +218,7 @@ export default function Profile() {
                                 </div>
                             </div>
 
-                            <div className="d-flex  mb-3 mar-left">
+                            <div className="d-flex  mb-3">
                                 <div><img src={friendphoto } className='friendphoto' /></div>
                                 <div className="ms-2">
                                     <p className="mb-0"> Mohamed Hadhoud</p>
@@ -227,7 +227,7 @@ export default function Profile() {
                                 </div>
                             </div>
 
-                            <div className="d-flex  mb-3 mar-left">
+                            <div className="d-flex  mb-3 ">
                                 <div><img src={friendphoto } className='friendphoto'/></div>
                                 <div className="ms-2">
                                     <p className="mb-0"> Yasser Badr</p>
@@ -239,7 +239,7 @@ export default function Profile() {
                                     <div className="rounded-pill border border-1 text-center  d-inline px-3 py-1">Connect</div>
                                 </div>
                             </div>
-                            <div className="d-flex  mb-3 mar-left">
+                            <div className="d-flex  mb-3 ">
                                 <div><img src={friendphoto } className='friendphoto'/></div>
                                 <div className="ms-2">
                                     <p className="mb-0">saad eldeen ali</p>
@@ -247,7 +247,7 @@ export default function Profile() {
                                     <div className="rounded-pill border border-1 text-center  d-inline px-3 py-1"> Connect</div>
                                 </div>
                             </div>
-                            <div className="d-flex mb-3 mar-left">
+                            <div className="d-flex mb-3 ">
                                 <div><img src={friendphoto } className='friendphoto' /></div>
                                 <div className="ms-2">
                                     <p className="mb-0">salma fayed</p>

@@ -1,14 +1,15 @@
-
 import { initializeApp } from "firebase/app";
 
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBDqVEK9bOuEMxTpx1CEzoIT9sbu52z_OI",
-  authDomain: "final-project-44a7f.firebaseapp.com",
-  projectId: "final-project-44a7f",
-  storageBucket: "final-project-44a7f.appspot.com",
-  messagingSenderId: "762285782259",
-  appId: "1:762285782259:web:a9af10dbece943c222b386"
+  apiKey: "AIzaSyARb66BsTD4N7oxI3Fo02zBix5LlRXwgJQ",
+  authDomain: "linkedin-project-f1f7d.firebaseapp.com",
+  projectId: "linkedin-project-f1f7d",
+  storageBucket: "linkedin-project-f1f7d.appspot.com",
+  messagingSenderId: "452363902965",
+  appId: "1:452363902965:web:68b36b8feb95121c814abc"
 };
 
 
- export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
