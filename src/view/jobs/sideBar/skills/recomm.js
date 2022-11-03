@@ -19,6 +19,7 @@ function SkillsRecommended()
     <button className='btn btn-success ms-2 rounded-pill'><a href='/recommended' className=' es_link2'>Recommended</a></button>
     <button className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/industry' className='es_link3'>Industry Knowlodge</a></button>
     <button className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/tools' className='es_link3'>Tools & Technology</a></button>
+    
 </div>
 <div id='div1'>
 <div className='d-flex mt-4'>
