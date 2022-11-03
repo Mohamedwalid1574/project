@@ -1,0 +1,14 @@
+.body{
+    margin: 0;
+    background-color:#f3f2ef
+}
+.hrfull{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
