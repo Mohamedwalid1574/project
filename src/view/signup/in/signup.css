@@ -1,0 +1,109 @@
+
+body{
+    background-color: #f3f2ef;
+}
+.NGR-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 34px;
+}    
+.NGR-logo{
+    height: 33.75px;
+    width: 135px;
+}
+.NGR-frm{
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 24px 24px 15px ;
+    width: 410px;
+}
+label{
+    color: #00000099;
+    font-size: 14px;
+}
+input{
+    width: 352px;
+    height: 32px;
+    padding: 0px 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 1px #00000099 solid;
+}
+.NGR-user-copyright{
+    font-size: 12px;
+    text-align: center;
+}
+.NGR-user-copyrights{
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: bold;
+}
+
+.NGR-agree-btn{
+    width: 352px;
+    height: 48px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #0a66c2;
+    border-radius: 100px;
+    padding: 0px 16px;
+    border: none;
+}
+hr{
+    height: 1px;
+    width: 150px;
+    text-align: center;
+}
+.NGR-g-logo{
+    width : 16.06px;
+    height : 16.06px;
+    background-color: #FFF;
+}
+.NGR-agree-btn-google{
+    width: 352px;
+    height: 45px;
+    border: solid 1px silver;  
+    background-color: #FFF;
+    border-radius: 100px;
+    padding: 0px 16px;
+}
+.NGR-Already-on-LinkedIn{
+    font: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.NGR-black-logo{
+    width:56px;
+    height: 14px;
+}
+.NGR-d-flex{
+    display: flex;
+}
+.NGR-footer{
+    padding-top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+.NGR-footer-texts{
+    padding-right: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00000099;
+    font-size: 12px;
+}
+.NGR-get-help{
+    margin-left: 36%;
+    margin-top : 20px ;
+}
+.NGR-slct{
+    /* background-color: #FFF; */
+    color: #00000099;
+    font-weight:bold ;
+    font-size: 12px;
+    /* outline: none; */
+}
+.NGR-slct:focus{
+    outline: none;
+}
