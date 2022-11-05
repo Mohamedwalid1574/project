@@ -34,6 +34,8 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
+import SignIn from './view/signin';
+import SignUp from './view/signup';
 function App() {
   return (
 
@@ -62,6 +64,8 @@ function App() {
           <Route path='/forth' element={<JobSeekerForth />} />
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
+        <Route path='/signup' element={<SignUp/>} />
+        <Route path='/signin' element={<SignIn/>} />
         </Routes>
       </Router>
     </>
