@@ -1,0 +1,130 @@
+.nada_left-sec-part {
+    background-color: #ffffff3b;
+    border-radius: 10px;
+    text-align: left;
+    border: 0.5px solid #00000017;
+    overflow: hidden;
+    margin-top: 7%;
+}
+
+.nada_prof-pic {
+    width: 103%;
+    height: 125px;
+    overflow: hidden;
+}
+
+.nada_connect-sec a {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nada_align-self-center {
+    align-self: center;
+}
+
+.nada_padding-margin {
+    padding: 10px;
+    margin: -10px;
+}
+
+.nada_connect-sec a {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nada_circle {
+    border-radius: 50%;
+    /* padding: 1px; */
+    margin: 2px;
+    width: 110%;
+    position: relative;
+    top: -40px;
+    right: 3px;
+    border: 3.5px solid white;
+}
+
+.nada_circle {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 165%;
+    position: relative;
+    top: -40px;
+    right: 13px;
+    border: 3.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nada_rec-img {
+    width: 107%;
+    position: relative;
+    top: -21px;
+    right: 21px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nada_justifySb {
+    justify-content: space-between;
+}
+
+.nada_name {
+    font-size: 13px;
+    font-weight: 700;
+    /* display: grid; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -35px;
+    right: 10px;
+}
+
+.nada_discoverMore {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* element.style {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 83%;
+    padding-top: 1rem;
+} */
+
+.nada_main-react-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    background-color: white;
+    padding-top: 1rem;
+    font-size: xx-small;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nada_this-feed-post {
+    margin-top: -3%;
+    width: 525px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    justify-items: center;
+}
+
+.nada_post-img {
+    width: 505px;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.nada_sideBar {
+    flex: 1 1;
+    /* background-color: #f3f2ef; */
+}

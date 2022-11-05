@@ -1,0 +1,71 @@
+body {
+    height: 5000px;
+}
+
+.nada_bg1 {
+    background-color:#f3f2ef;
+    margin-top: 2rem;
+}
+
+
+.nada_sideBar {
+    flex: 1;
+    /* background-color:#f3f2ef; */
+}
+
+.nada_st1 {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center; */
+    height: 273px;
+    padding-left: 25px;
+}
+
+.nada_nd2 {
+    height: 273px;
+    padding: 16px 16px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* align-self: center; */
+}
+
+.inputt {
+    width: 100%;
+    border: 0.3px solid rgba(0, 0, 0, 0.301);
+    border-radius: 15px;
+    font-size: 15px;
+    /* font-family: unset; */
+    font-weight: 600;
+    padding: 5px 35px 5px 10px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+    left: -4px;
+    outline: #f3f2ef;
+}
+
+.btn-bar {
+    display: flex;
+    align-items: center;
+}
+
+.spc-bt {
+    justify-content: space-betweens;
+}
+
+/* .top{} */
+
+.nada_fs-13 {
+    font-size: 13px;
+}
+
+.nada_fs-15 {
+    font-size: 15px;
+}
+
+.nada_line {
+    border-right: #0000002b 1px solid;
+    height: 50px;
+}

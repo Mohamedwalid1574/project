@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import React from 'react'
 import './App.css';
@@ -19,7 +20,8 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-
+import Home from './view/home/Home';
+import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
 
@@ -38,7 +40,7 @@ function App() {
   return (
 
     <>
-    
+
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -60,12 +62,17 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
-          <Route path='/pre' element={<Prepage/>} />
-        <Route path='/job' element={<Job/>} />
+          <Route path='/pre' element={<Prepage />} />
+          <Route path='/job' element={<Job />} />
         </Routes>
       </Router>
-    </>
 
+      <div className="bg1">
+        <HeaderAndMessage />
+        <Home />
+      </div>
+
+    </>
 
   );
 
