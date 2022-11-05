@@ -1,0 +1,155 @@
+
+.maro_section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0px 100px ;
+}
+.maro_img1{
+    width: 35px;
+}
+.maro_link1{
+    color: gray;
+    text-decoration:none ;
+
+}
+.maro_link1:hover{
+    color: black;
+    text-decoration: underline;
+}
+.maro_section2{
+    text-align: center;
+    padding: 30px 100px 10px ;
+}
+.maro_h1{
+    font-size: 25px;
+}
+.maro_h2{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+/* position: relative; */
+}
+.maro_img_imp{
+    display: flex;
+}
+.maro_img12{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+    /* position: absolute;
+    left: 100px; */
+
+}
+.maro_img22{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+    /* position: absolute;
+    left: 125px; */
+    
+}
+.maro_img32{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+    /* position: absolute;
+    left: 140px; */
+
+}
+.maro_h3{
+    color: gray;
+    font-size: 16px;
+}
+.maro_hr_se2{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.maro_section3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    border: 0px;
+}
+.maro_box{
+    margin-top: 25px;
+    
+    
+    
+    width: 500px;
+    height: 457px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 23px;
+}
+.maro_se3_head3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 23px;
+}
+.maro_se3_h1{
+
+font-size: 20px;
+}
+.maro_se3_img1{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.maro_se3_h1_pt2{
+    font-size: 13px;
+}
+.maro_se3_h2{
+    margin-top: -20px ;
+    padding-left: 80px;
+}
+.maro_se3_form3{
+    padding-left: 80px;
+    padding-top: 20px;
+    
+}
+label{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 5px;
+    
+}
+.maro_se3_error{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.maro_se3_red{
+    color: red;
+    font-size: 15px;
+}
+.maro_se3_note{
+    padding-left: 80px;
+    padding-top: 15px;
+}
+.maro_se3_gray{
+    color: gray;
+    font-size: 14px;
+}
+#maro_se3_but{
+    border-radius: 10px;
+    width: 60px;
+    font-size: 17px;
+}
+.maro_se3_end{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.maro_se3_link{
+    text-decoration: none;
+    color: gray;
+}
+.maro_se3_link:hover{
+    color: gray;
+    background-color: rgb(214, 214, 214);
+
+}
+
