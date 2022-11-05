@@ -32,7 +32,7 @@ export default function Groups() {
                             </div>
                         </div>
                         <div className="col-2">
-                            <div className="btn rounded-pill border  ">all filters</div>
+                            <div className="btn rounded-pill border">all filters</div>
                         </div>
                     </div>
                 </div>

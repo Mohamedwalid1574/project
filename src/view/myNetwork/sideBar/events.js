@@ -41,7 +41,7 @@ export default function Events() {
                                     <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
                                         className="link m-2">Help Center</a>
                                 </span>
-                                <span><a href="" className="link m-2">Privacy & Terms i</a></span>
+                                <span><a href="/#" className="link m-2">Privacy & Terms i</a></span>
                                 <span>
                                     <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
                                         className="link m-2">Ad Choices</a>
@@ -53,7 +53,7 @@ export default function Events() {
                                     </a>
                                 </span>
                                 <div className="text-center">
-                                    <img src="./image/foot.png" /><span >Linkedin Corporation
+                                    <img alt='' src="./image/foot.png" /><span >Linkedin Corporation
                                         © 2022</span>
                                 </div>
                             </div>

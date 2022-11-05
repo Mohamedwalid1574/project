@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
@@ -18,7 +19,7 @@ function JobSeekerThird() {
                     <h2>Esraa, we’re here to help you land your next job</h2>
                     <p>Let industry experts guide you with concrete steps you can take to land your next job.</p>
                     <div className='d-flex'>
-                        <img className='es_img4' src='https://static-exp1.licdn.com/sc/h/c6jthr2qabqnubzowrdxg1e6k' />
+                        <img alt='' className='es_img4' src='https://static-exp1.licdn.com/sc/h/c6jthr2qabqnubzowrdxg1e6k' />
                         <p>Millions of people are learning on LinkedIn Learning</p>
                     </div>
                 </div>
@@ -38,7 +39,7 @@ function JobSeekerThird() {
                                 <YoutubeEmbed embedId="rokGy0huYEA" />
                             </div>
                             <h5>Who to ask for a reference, recommendation, or referral (2min)</h5>
-                            <p>From the course: <a href='#' className='es_link'> How to Leverage References, Recommendations, and Referrals to Advance Your Career</a></p>
+                            <p>From the course: <a href='/#' className='es_link'> How to Leverage References, Recommendations, and Referrals to Advance Your Career</a></p>
                             <p>Key takeaways</p>
                             <ul>
                                 <li className='es_font4 es_font3'>Ask someone who is familiar with who you are, what you do and how you do it.</li>
@@ -58,7 +59,7 @@ function JobSeekerThird() {
                                     <li className='es_font4 es_font3'>Reach out directly to any recruiters with 3 InMail credits.</li>
                                     <li className='es_font4 es_font3'>Get access to over 17,000 courses taught by industry experts.</li>
                                 </ul>
-                                <a alt='' href='#' className='es_div4_job'> <button className='btn btn-primary'>Start my free manth</button></a>
+                                <a alt='' href='/#' className='es_div4_job'> <button className='btn btn-primary'>Start my free manth</button></a>
                             </div>
                         </div>
 

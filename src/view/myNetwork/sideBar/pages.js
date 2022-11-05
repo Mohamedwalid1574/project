@@ -20,7 +20,7 @@ export default function Pages() {
                                         <div >
                                             
                                             <div className="card-img-top w-25  " >
-                                                <img src={pro} style={{height:'100px'}} />
+                                                <img alt='' src={pro} style={{height:'100px'}} />
                                             </div>
                                             <h6 className="card-title " >وظائف مصر</h6>
                                             <p className='card-text'>Staffing and Recruiting</p>
@@ -39,7 +39,7 @@ export default function Pages() {
                                         <div >
                                             
                                             <div className="card-img-top w-25  " >
-                                                <img src={pro} style={{height:'100px'}} />
+                                                <img alt='' src={pro} style={{height:'100px'}} />
                                             </div>
                                             <h6 className="card-title " >وظائف مصر</h6>
                                             <p className='card-text'>Staffing and Recruiting</p>
@@ -58,7 +58,7 @@ export default function Pages() {
                                         <div >
                                             
                                             <div className="card-img-top w-25  " >
-                                                <img src={pro} style={{height:'100px'}} />
+                                                <img alt='' src={pro} style={{height:'100px'}} />
                                             </div>
                                             <h6 className="card-title " >وظائف مصر</h6>
                                             <p className='card-text'>Staffing and Recruiting</p>
@@ -77,7 +77,7 @@ export default function Pages() {
                                         <div >
                                             
                                             <div className="card-img-top w-25  " >
-                                                <img src={pro} style={{height:'100px'}} />
+                                                <img alt='' src={pro} style={{height:'100px'}} />
                                             </div>
                                             <h6 className="card-title " >وظائف مصر</h6>
                                             <p className='card-text'>Staffing and Recruiting</p>
@@ -99,7 +99,7 @@ export default function Pages() {
 
                     <div className="col-md-3 col-sm-12 ">
                         <div className='center'>
-                            <img src={photo} />
+                            <img alt='' src={photo} />
                             <div className="text-xl-center mt-3 " >
                                 <span>
                                     <a href="https://about.linkedin.com/" className="link m-2  text-muted">About
@@ -113,7 +113,7 @@ export default function Pages() {
                                     <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
                                         className="link m-2">Help Center</a>
                                 </span>
-                                <span><a href="" className="link m-2">Privacy & Terms i</a></span>
+                                <span><a href="/#" className="link m-2">Privacy & Terms i</a></span>
                                 <span>
                                     <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
                                         className="link m-2">Ad Choices</a>
@@ -125,7 +125,7 @@ export default function Pages() {
                                     </a>
                                 </span>
                                 <div className="text-center" >
-                                    <img src="./image/foot.png" /><span >Linkedin Corporation
+                                    <img alt='' src="./image/foot.png" /><span >Linkedin Corporation
                                         © 2022</span>
                                 </div>
                             </div>
