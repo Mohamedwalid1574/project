@@ -3,9 +3,23 @@ import './signup.css';
 import LI from './Images/LI.png';
 import Black_logo from'./Images/black-logo.png';
 import G_logo  from './Images/g-logo.png';
+import { useState } from "react";
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import {auth} from "../model/firebaseConfige"
 
 function SignUp() {
-  console.log("every thing is good")
+  const [signupemail,setsignup]= useState("")
+  const [signuppass,setpass]= useState("")
+  const signup = async()=>{
+    try{
+    const user =await createUserWithEmailAndPassword(auth,signupemail,signuppass)
+    console.log(user)
+    } catch (error)
+    {
+      console.log (error.message)
+    }
+  }
+  
   return (
     <>
   <div className="row col-md-10 offset-md-1">
@@ -14,19 +28,19 @@ function SignUp() {
   <h1>Make the most of your professional life</h1>
   <form className="NGR-frm  offset-md-4">
     <label>Email</label><br></br>
-    <input type="email"></input><br></br>
+    <input id="email" type="email" onChange={(event)=>{setsignup(event.target.value)}}></input><br></br>
     <label>Password (6 or more characters)</label><br></br>
-    <input type="password"></input><br></br>
+    <input id="password" type="password"  onChange={(event)=>{setpass(event.target.value)}}></input><br></br>
     <p className="NGR-user-copyright">
         By clicking Agree & Join, you agree to the LinkedIn 
         <a className="NGR-user-copyrights">User Agreement</a>,
         <a className="NGR-user-copyrights">Privacy Policy</a>, and 
         <a className="NGR-user-copyrights">Cookie Policy</a>.
     </p>
-    <button className="NGR-agree-btn " type="submit">Agree & Join</button><br></br>
+    <button className="NGR-agree-btn " id="signup" type="submit" onClick={signup}>Agree & Join</button><br></br>
     <div className='d-flex'><hr></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr></hr></div>
     <button className="NGR-agree-btn-google" type="submit">Continue with Google<img className="NGR-g-logo" src={G_logo} /></button>
-    <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights">Sign in</a></p>
+    <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights" href="/signin">Sign in</a></p>
   </form>
   <p className="NGR-get-help ">Looking to create a page for a business?<a className="NGR-user-copyrights"> Get help </a></p>
     </div>
