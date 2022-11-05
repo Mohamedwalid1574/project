@@ -31,11 +31,12 @@ import JobSeekerfirst from './view/jobs/sideBar/jobseek/jobSeekerGudiance';
 import JobSeekersecond from './view/jobs/sideBar/jobseek/jobseeksecond';
 import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
+import Creategroup from './view/myNetwork/sideBar/creategroup';
 function App() {
   return (
 
     <>
-    
+<Creategroup/>
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -43,6 +44,7 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/groups" element={<Groups />} />
+          <Route path="/creategroup" element={<Creategroup />} />
           <Route path="/hashtages" element={<Hashtages />} />
           <Route path="/pages" element={<Pages />} />
           <Route path="/peopleIFollow" element={<Peopleifollow />} />
