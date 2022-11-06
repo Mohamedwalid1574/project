@@ -3,7 +3,7 @@ import './sidebar_2nd.css'
 import GIRL from './girl.png';
 
 // { noBorder, radius }
-const Avatar = ({ noBorder, radius }) => {
+const Avatarme = ({ noBorder, radius }) => {
 
     const cicle = {
         borderRaius: '50%'
@@ -53,4 +53,4 @@ const Avatar = ({ noBorder, radius }) => {
     );
 }
 
-export default Avatar;
+export default Avatarme;

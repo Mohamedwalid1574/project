@@ -94,7 +94,7 @@ const SideBarSt1 = () => {
                             <a href='/#' >
                                 <span>Try Premium For Free</span>
                             </a>
-                            <span class="material-symbols-outlined" style={{ color: 'blue' }}>workspace_premium </span>
+                            <span class="material-symbols-outlined" style={{ color: '#0000ffad' }}>workspace_premium </span>
                         </div>
                     </div>
 
