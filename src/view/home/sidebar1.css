@@ -1,15 +1,25 @@
 .nada_left-sec-part {
-    background-color: #ffffff3b;
-    border-radius: 10px;
-    text-align: left;
-    border: 0.5px solid #00000017;
+    margin-top: 20%;
+    background-color: #fff;
     overflow: hidden;
-    margin-top: 7%;
+    text-align: left;
+    border-radius: 10px;
+    border: 0.5px solid #00000017;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.nada_leftt {
+    text-align: left;
+    border-radius: 10px;
+    border: 0.5px solid #00000017;
+    width: 70%;
+    margin-left: 20%;
 }
 
 .nada_prof-pic {
     width: 103%;
-    height: 125px;
+    height: 85px;
     overflow: hidden;
 }
 

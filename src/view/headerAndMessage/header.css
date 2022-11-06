@@ -118,3 +118,26 @@ i :hover {
 .nada_height-of-navbar {
     height: 55px;
 }
+.nada_align{
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+.nada_add{
+    align-self: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    right: -50px;
+    font-size:medium;
+    font-weight: bold;
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
+    color: blue;
+    font-weight: bolder;
+}
+.nada_exsmall{
+    font-size: 13px;
+    padding-left: 1rem;
+}
