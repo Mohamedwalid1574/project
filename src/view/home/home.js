@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import Feed from './Feed';
-import './Home.css';
+import './home.css';
 import SideBar_2nd from './SideBar2nd';
 import SideBarSt1 from './SideBarSt1';
 const Home = () => {

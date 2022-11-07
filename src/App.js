@@ -20,7 +20,7 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-import Home from './view/home/Home';
+import Home from './view/home/home';
 import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
@@ -37,7 +37,7 @@ import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
 
-import Notifications from './view/notification/Notifications';
+import Notifications from './view/notification/notifications';
 
 import SignIn from './view/signin';
 import SignUp from './view/signup';
@@ -83,10 +83,10 @@ function App() {
         </Routes>
       </Router>
 
-      {/* <div className="bg1">
+      <div className="bg1">
         <HeaderAndMessage />
         <Home />
-      </div> */}
+      </div>
 
     </>
 
