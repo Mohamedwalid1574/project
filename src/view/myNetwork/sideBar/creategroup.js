@@ -12,15 +12,15 @@ export default function Creategroup(){
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return(
-        <div className='body py-2'>
+        <div className='body  py-3'>
             <div className='card  w-75 h-75'>
                 <div className='d-flex py-2 px-3 justify-content-between align-items-center '>
                     <div className='d-flex justify-content-around align-items-center'>
                         <div >Your groups</div>
                         <div className='ms-5'>Requested</div>
                     </div>
-                    {/* <div className='btn rounded-5 btn-outline-primary  py-1 px-3' data-bs-toggle='model'>Create group</div> */}
-                     <Button variant="primary" onClick={handleShow}> Launch demo modal</Button>
+                   
+                     <Button className=' rounded-5  py-1 px-3' onClick={handleShow}>create group</Button>
                      <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
@@ -60,7 +60,7 @@ export default function Creategroup(){
                     <h5>Discover groups</h5>
                     <p>Find other trusted communities that share and support your goals.</p>
                    
-                   <div className='btn rounded-5 btn-outline-primary  py-1 px-3'>Discover</div>
+                   <Link to="/groups" className='btn rounded-5 btn-outline-primary  py-1 px-3'>Discover</Link>
                    
                 </div>
             </div>

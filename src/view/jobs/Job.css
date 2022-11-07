@@ -1,0 +1,502 @@
+.maro_job{
+    /* display: flex;
+    justify-content: space-around; */
+    background-color:rgb(245, 245, 245) ;
+    width: 100%;
+    height: 100%;
+}
+/* .maro_se1{
+    margin-left: -10px;
+
+
+    }  */
+.maro_se1_lf{
+background-color: white;
+padding: 5px 0px 5px 5px;
+border-radius: 6px;
+position: relative;
+position: sticky;
+border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+
+}
+
+.maro_se1_lf1{
+    display: flex;
+    padding-left: 10px;
+    color: gray;
+    margin: 5px 0px 0px 0px ;
+    width: 200px;
+    height: 28px;
+    
+    
+}
+.maro_se1_lk{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    padding-left: 9px;
+
+}
+.maro_se1_lk:hover{
+    color: rgb(41, 41, 41);
+}
+.maro_se1_lf2{
+    /* display: flex;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px; */
+    display: flex;
+    padding-left: 10px;
+    color: gray;
+    margin: 5px 0px;
+    height: 40px;
+    background-color: white;
+    padding-top: 7px;
+    
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+    
+}
+.maro_se1_lk2{
+    text-decoration: none;
+    color: #0a66c2;
+    font-size: 16px;
+    padding-left: 9px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.maro_se1_ic{
+    
+    color:#0a66c2 ;
+    font-size: 15px;
+}
+.maro_se2_mid{
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+    /* height: 100%;
+    width: 500px; */
+}
+
+.maro_se3_rg{
+    background-color: white;
+    border-radius: 6px;
+    /* width: 200px;
+    height: 100px; */
+} 
+.maro_se2_h1{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:25px ;
+    padding-left: 20px;
+    margin: 0px;
+}
+.maro_se2_h2{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    color: rgb(116, 116, 116);
+}
+.maro_se2_img1{
+    width:60px;
+    height: 50px;
+    padding-left: 10px;
+}
+.maro_se2_pt1{
+    display: flex;
+    
+}
+.maro_se2_pt12{
+    display: block;
+    padding-left: 10px;
+    
+}
+.maro_se2_pt13{
+    display: flex;
+}
+.maro_se2_lk1{
+    text-decoration: none;
+    color:#0a66c2 ;
+    font-size: 16px;
+    
+}
+.maro_se2_lk1:hover{
+    text-decoration: underline;
+}
+.maro_se2_lk2{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+.maro_se2_lk2:hover{
+    color: #0a66c2;
+    text-decoration: underline;
+}
+.maro_se2_lk3{
+    color: gray;
+    font-size: 13px;
+}
+.maro_se2_ic1{
+    color: green;
+    
+}
+.maro_se2_lk4{
+    font-size: 12px;
+    color: gray;
+    padding: 5px;
+}
+.maro_se2_lk5{
+    text-decoration: none;
+    color: green;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.maro_se2_bt{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.maro_se2_pt14{
+    display: flex;
+    padding-left: 190px;
+    color: gray;
+}
+
+.maro_se2_ic22:hover{
+background-color: rgb(185, 185, 185);
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+/* .maro_se2_ic1{
+    visibility: hidden;
+} */
+.maro_se2_ic21:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    visibility: visible;
+}
+.maro_se2_pt2{
+    display: flex;
+}
+.maro_se2_pt3{
+    display: flex;
+}
+.maro_se2_pt4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maro_se2_1{
+    text-decoration: none;
+    color: gray;
+    
+
+}
+.maro_se2_2{
+    color: gray;
+}
+.maro_se2_pt4:hover{
+    /* background-color: rgb(196, 196, 196); */
+    background-color: rgb(209, 209, 209);
+}
+.maro_se2_1:hover{
+    color: gray;
+    
+
+}
+.maro_se2_lk5:hover{
+    color: green;
+}
+.maro_se2_ln{
+    width: 428px;
+    border-top: solid rgb(209, 209, 209) 1px;
+    margin: 20px 10px;
+}
+.maro_se2_ln1{
+    width: 448px;
+    color: gray;
+    border-top: solid rgb(209, 209, 209) 1px;
+    margin-top: 20px;
+    
+}
+
+.maro_se2_ln2{
+    width: 450px;
+    color: gray;
+    border-top: solid rgb(209, 209, 209) 1px;
+    
+}
+.maro_se2_mid2{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+}
+.maro_se2_sp{
+    display: flex;
+    justify-content: space-around;
+padding-top: 15px;
+}
+.maro_se2_lk50{
+    
+    text-decoration: none;
+    color: green;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maro_se2_lk50:hover{
+    color: green;
+}
+.maro_se2_ptimg{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.maro_se2_ptr:hover{
+    background-color: rgb(185, 185, 185);
+width: 25px;
+height: 25px;
+border-radius: 50%;
+
+}
+.maro_se2_p2{
+    display: flex;
+}
+
+.maro_se2_img12{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+}
+.maro_se2_img22{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+}
+.maro_se2_img32{
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 30px;
+}
+.maro_se2_p21{
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px;
+}
+.maro_se2_p3{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.maro_se2_btn{
+    border: solid #f8c77e 0px;
+    background-color: #f8c77e;
+    padding: 5px 20px;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.maro_se2_btn:hover{
+    background-color:#c37d16 ;
+}
+.maro_se2_mid3{
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 20px;
+}
+.maro_se2_1day{
+    display: flex;
+}
+.maro_se2_lkday{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.maro_se2_lkday:hover{
+    color: gray;
+}
+.maro_se2_lkday2{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.maro_se2_lkday2:hover{
+    color: gray;
+}
+.maro_se2_mid4{
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 20px;
+}
+.maro_se2_mid5{
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 20px;
+}
+.maro_se2_btnf{
+    color: gray;
+    
+    border: solid 1px gray ;
+    width: 400px;
+    border-radius: 13px;
+}
+.maro_s2_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.maro_se2_btnf:hover{
+    background-color: rgb(221, 221, 221);
+    border: solid 2px rgb(100, 100, 100);
+}
+.maro_se3_rg{
+background-color: white;
+padding: 5px 0px 5px 5px;
+border-radius: 6px;
+position: relative;
+position: sticky;
+}
+.maro_se3_11{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    
+
+}
+.maro_se3_pt1{
+    margin-left: 10px;
+}
+.maro_se3_12{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    
+}
+.maro_se3_pt2{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+.maro_se3_21{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.maro_se3_22{
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+}
+.maro_se3_x{
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+.maro_se3_x:hover{
+    background-color: #e9f4ff;
+
+
+
+}
+.maro_se3_pt3{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.maro_se3_31{
+    font-size: 14px;
+}
+.maro_se3_pt4{
+    margin-left: 10px;
+    display: flex;
+    
+}
+.maro_se3_41{
+    text-decoration: none;
+    color: #ccadf0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.maro_se3_42{
+    
+    color: #ccadf0;
+    
+}
+.maro_se3_41:hover{
+    text-decoration: underline;
+    color: #8344cc;
+}
+.maro_se3_42:hover{
+    color: #8344cc;
+} 
+
+.maro_se3_40{
+    display: flex;
+}
+.maro_se3_40:hover{
+    color: #8344cc;
+}
+.maro_se3_pt4:hover{
+    
+    color: #8344cc;
+}
+.maro_se3_f1{
+    
+    font-size: 12px;
+    margin: 10px 50px;
+}
+.maro_se3_lk{
+    margin-left: 15px;
+    text-decoration: none;
+    color: gray;
+}
+.maro_se3_fx{
+    display: flex;
+}
+.maro_se3_lk2{
+    font-size: 13px;
+}
+.maro_se3_lk3{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+
+}
+.maro_se3_lk20{
+    font-size: 15px;
+    
+}
+.maro_se3_lk3:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.maro_se3_lk20:hover{
+    text-decoration: underline;
+}
+.maro_se3_end{
+    display: flex;
+    justify-content: center;
+}
+.maro_se3_e1{
+    font-size: 17px;
+    color:#0a66c2 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.maro_se3_e2{
+    font-size: 13px;
+    padding-top: 3px;
+}

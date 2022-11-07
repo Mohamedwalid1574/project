@@ -23,6 +23,7 @@ import Profile from './view/profile/profile';
 
 
 
+
 import Skills from './view/jobs/sideBar/skills/skillAssessments';
 import SkillsIndustry from './view/jobs/sideBar/skills/indastry';
 import SkillsTools from './view/jobs/sideBar/skills/tools';
@@ -31,12 +32,14 @@ import JobSeekerfirst from './view/jobs/sideBar/jobseek/jobSeekerGudiance';
 import JobSeekersecond from './view/jobs/sideBar/jobseek/jobseeksecond';
 import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
+import Job from './view/jobs/Job';
+import Prepage from './view/premium/Prepage';
 import Creategroup from './view/myNetwork/sideBar/creategroup';
 function App() {
   return (
 
     <>
-<Creategroup/>
+
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -59,6 +62,8 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
+          <Route path='/pre' element={<Prepage/>} />
+        <Route path='/job' element={<Job/>} />
         </Routes>
       </Router>
     </>

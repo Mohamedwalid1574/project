@@ -1,5 +1,10 @@
 import './profile.css';
+import { Link } from "react-router-dom";
 
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
 
 
 import cover from './image/images.png';
@@ -9,6 +14,10 @@ import friendphoto from './image/One_Piece-9f62b3e6-bd9c-423b-b154-09b15a724f62.
 
 
 export default function Profile() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
           <div className='body '>
@@ -123,7 +132,39 @@ export default function Profile() {
                                     <p className="opacity-50">1 followers</p>
                                     </div>
                                     <div>
-                                        <button className='btn rounded-pill border border-primary border-2 ms-2 text-primary'>start a post</button>
+                                    <Button className=' rounded-5  py-1 px-3' onClick={handleShow}>Start a post</Button>
+                     <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@example.com"
+                autoFocus
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Example textarea</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
                                     </div>
                                 </div>
                                 <p className="m-0">You haven't posted lately</p>

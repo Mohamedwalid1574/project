@@ -302,7 +302,7 @@ export default function Mynetwork() {
                                 <div > People who follow Osama Elzero also follow</div>
                                 <a> See all</a>
                             </div>
-                            <div className="row row-cols-1 row-cols-md-3 g-4 ">
+                            <div className="row row-cols-1 row-cols-md-4 g-4 ">
                                 <div className="col ">
                                     <div className="card w-100 max-wi">
                                         <img src={cover} className="card-img-top" />

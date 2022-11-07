@@ -8,32 +8,38 @@ export default function Connection() {
 
 
 
-            <div className="container">
-                <div className="row">
+            <div className="container p-0  m-0 w-75 mx-auto">
+                <div className="row py-3">
 
                     <div className="col-md-9  col-sm-12 " >
                         <div className="card">
 
                             <div className="card-body">
                                 <p className="card-title" style={{ fontSize: "x-large", fontWeight: "100" }}>You don’t have any connections yet.    </p>
-                                <p className="card-text" style={{ marginTop: "15px" }}>Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
-                                <div className="image-linked"><img src="./image/image-linked.png" /></div>
+                                <p className="card-text">Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
+                                
                             </div>
                         </div>
 
 
 
-                        <div className="card mt-3 ">
+                        <div className="card mt-3 p-3">
 
-                            <div className="card-body ">
+                            
                                 <p className="card-title" style={{ fontSize: " x-large", fontWeight: "100" }}>See who you already know on LinkedIn <br />
-                                    <p style={{ fontSize: "16px", opacity: "75%", marginTop: "-10px" }}>  The fastest way to grow your network is to import your contacts</p></p>
-                                <p className="card-text " style={{ fontSize: "16px", opacity: "75%", marginTop: "15px" }}>We’ll import and store your contacts to suggest connections and show you relevant updates. <br />
+                                    <p style={{ fontSize: "16px", opacity: "75%" }}>  The fastest way to grow your network is to import your contacts</p></p>
+                                <p className="card-text " style={{ fontSize: "16px", opacity: "75%" }}>We’ll import and store your contacts to suggest connections and show you relevant updates. <br />
 
-                                    You control who you connect to, and you can manage your contacts anytime. <a className="text-decoration-none tet">Learn more</a> </p>
-                                <input type="email" className="form-control w-75 h-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email adress" />                    </div>
-                            <button type="button" className="btn btn-primary " style={{ width: "100px", marginLeft: "25px", borderRadius: "50px " }}>Continue</button>
-                            <a className="text-muted text-decoration-none mb-3 form-control-sm mx-2 ">More options</a>
+                                    You control who you connect to, and you can manage your contacts anytime. 
+                                    <a className="text-decoration-none ">Learn more</a>
+                                     </p>
+                               <form>
+                               <input type="email" className="form-control w-75 h-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address" />   
+                               < input className="btn btn-primary w-10 px-3 py-1 mt-2 rounded-pill" type='button' value='continue' />
+                                   </form>              
+                            
+                            <a className="text-muted text-decoration-none mb-3 form-control-sm ">More options</a>
+                           
 
                         </div>
                     </div>
@@ -48,43 +54,22 @@ export default function Connection() {
 
                             >
                                 <span>
-                                    <a className="link m-2  text-muted"
-                                    >About
-                                    </a
-                                    >
+                                    <a className="link m-2  text-muted">About</a >
                                 </span>
                                 <span>
-                                    <a
-
-                                        className="link m-2"
-                                    >Accessibility</a
-                                    >
+                                    <a className="link m-2">Accessibility</a>
                                 </span>
                                 <span >
-                                    <a
-
-                                        className="link m-2"
-                                    >Help Center</a
-                                    >
+                                    <a className="link m-2">Help Center</a >
                                 </span>
                                 <span><a className="link m-2">Privacy & Terms i</a></span>
                                 <span>
-                                    <a
-
-                                        className="link m-2"
-                                    >Ad Choices</a
-                                    >
+                                    <a className="link m-2">Ad Choices</a>
                                 </span>
                                 <span>
-                                    <a
-
-                                        className="link m-2"
-                                    >Advertising
-
-                                    </a
-                                    >
+                                    <a className="link m-2">Advertising</a>
                                 </span>
-                                <div className=' mx-5 my-3'>
+                                <div className='centeroflinked  my-3'>
                                     <div className="   d-flex " >
                                         <div className='d-flex align-items-center text-primary'>
                                             <h6 className='m-0'>linked</h6>
