@@ -16,8 +16,13 @@ export default function Connection() {
 
                             <div className="card-body">
                                 <p className="card-title" style={{ fontSize: "x-large", fontWeight: "100" }}>You don’t have any connections yet.    </p>
+<<<<<<< HEAD
                                 <p className="card-text">Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
                                 
+=======
+                                <p className="card-text" style={{ marginTop: "15px" }}>Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
+                                <div className="image-linked"><img alt='' src="./image/image-linked.png" /></div>
+>>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                             </div>
                         </div>
 
@@ -30,6 +35,7 @@ export default function Connection() {
                                     <p style={{ fontSize: "16px", opacity: "75%" }}>  The fastest way to grow your network is to import your contacts</p></p>
                                 <p className="card-text " style={{ fontSize: "16px", opacity: "75%" }}>We’ll import and store your contacts to suggest connections and show you relevant updates. <br />
 
+<<<<<<< HEAD
                                     You control who you connect to, and you can manage your contacts anytime. 
                                     <a className="text-decoration-none ">Learn more</a>
                                      </p>
@@ -40,13 +46,19 @@ export default function Connection() {
                             
                             <a className="text-muted text-decoration-none mb-3 form-control-sm ">More options</a>
                            
+=======
+                                    You control who you connect to, and you can manage your contacts anytime. <a href='/#' className="text-decoration-none tet">Learn more</a> </p>
+                                <input type="email" className="form-control w-75 h-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email adress" />                    </div>
+                            <button type="button" className="btn btn-primary " style={{ width: "100px", marginLeft: "25px", borderRadius: "50px " }}>Continue</button>
+                            <a href='/#' className="text-muted text-decoration-none mb-3 form-control-sm mx-2 ">More options</a>
+>>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
 
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-12  " >
                         <div className='card'>
 
-                            <img src={photo} className='p-2 w-100' />
+                            <img alt='' src={photo} className='p-2 w-100' />
 
                             <div
                                 className="text-xl-center mt-3 "
@@ -54,6 +66,7 @@ export default function Connection() {
 
                             >
                                 <span>
+<<<<<<< HEAD
                                     <a className="link m-2  text-muted">About</a >
                                 </span>
                                 <span>
@@ -61,13 +74,29 @@ export default function Connection() {
                                 </span>
                                 <span >
                                     <a className="link m-2">Help Center</a >
+=======
+                                    <a className="link m-2  text-muted" href='/#' >About </a>
                                 </span>
-                                <span><a className="link m-2">Privacy & Terms i</a></span>
                                 <span>
+                                    <a href='/#' className="link m-2" >Accessibility</a>
+                                </span>
+                                <span >
+                                    <a href='/#' className="link m-2" >Help Center</a>
+>>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
+                                </span>
+                                <span><a href='/#' className="link m-2">Privacy & Terms i</a></span>
+                                <span>
+<<<<<<< HEAD
                                     <a className="link m-2">Ad Choices</a>
                                 </span>
                                 <span>
                                     <a className="link m-2">Advertising</a>
+=======
+                                    <a href='/#' className="link m-2" >Ad Choices</a>
+                                </span>
+                                <span>
+                                    <a className="link m-2" href='/#' >Advertising</a>
+>>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                 </span>
                                 <div className='centeroflinked  my-3'>
                                     <div className="   d-flex " >
