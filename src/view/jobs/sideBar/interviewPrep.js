@@ -16,7 +16,7 @@ function Interview()
                             <h6>Common Questions</h6>
                             <p className='es_font3 es_font4'>26 questions</p>
                             </div>
-                            <a href='#' className='es_div4_job'> <button className='btn btn-primary rounded-pill'>Categories</button></a>
+                            <a href='#' className='es_div4_job'> <div className='btn btn-primary rounded-pill'>Categories</div></a>
                         </div>
                         <div className='d-flex es_cards_inter es_inter'>
                             <p className='es_space1 '>1</p>
@@ -84,7 +84,7 @@ function Interview()
                     <div className='es_div3_inter'>
                         <div className='card es_card_inter'>
                             <div className='d-flex'>
-                            <img src={"https://cdn-icons-png.flaticon.com/512/427/427676.png"} className='es_img3 es_space1'/>
+                            <img alt='' src={"https://cdn-icons-png.flaticon.com/512/427/427676.png"} className='es_img3 es_space1'/>
                             <p className='es_font3 es_font4'>Get instant, AI-powered feedback on the delivery of your answer when you practice and record a video</p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ function Interview()
                             <div>
                                 <h4>Where do you see yourself in 5 years?</h4>
                                 <div className='d-flex'>
-                                <a href='#' className='me-5'> <button className='btn btn-primary rounded-pill'>Practicre and get feedback</button></a>
+                                <a href='#' className='me-5'> <div className='btn btn-primary rounded-pill'>Practicre and get feedback</div></a>
                                     <p className='es_font3 es_font4 mt-2'>960,109 people viewed this question</p>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ function Interview()
                         <div className='es_space card es_card_inter'>
                             <div className='d-flex'>
                             <p className='es_font3'>Unlock sample answers with expert feedback using LinkedIn Premium</p>
-                            <a href='#' className='es_div4_job'> <button className='btn btn-warning rounded-pill'>Try free for 1 month</button></a>
+                            <a href='#' className='es_div4_job'> <div className='btn btn-warning rounded-pill'>Try free for 1 month</div></a>
                             </div>
                             
                             
@@ -122,7 +122,7 @@ function Interview()
           </p>
         </div>
 
-          <button className="btn btn-light rounded-pill">
+          <button className="btn btn-light rounded-pill es_btn_unlock">
 <span>
     Unlock
 </span></button>
@@ -144,7 +144,7 @@ function Interview()
      </p>
    </div>
 
-     <button className="btn btn-light rounded-pill ">
+     <button className="btn btn-light rounded-pill es_btn_unlock">
 <span>
 Unlock
 </span></button>
@@ -166,7 +166,7 @@ Unlock
           </p>
         </div>
 
-          <button className="btn btn-light rounded-pill">
+          <button className="btn btn-light rounded-pill es_btn_unlock">
 <span>
     Unlock
 </span></button>
@@ -183,7 +183,7 @@ Unlock
             <p className='es_font4 es_font3' >By Jenny Foss, Career Strategist at linkedin-corp</p>
             <p className='es_font4 es_font3' >2 mins·2,457,933 views • Includes video</p>
             </div>
-            <button className="btn btn-light rounded-pill ">
+            <button className="btn btn-light rounded-pill es_btn_unlock">
                 <span>
                 view
                 </span></button></div>

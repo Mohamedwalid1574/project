@@ -5,19 +5,29 @@ import { useState } from "react";
 import {auth} from "../model/firebaseConfige"
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-function SignIn() {
-  const [loginemail,setlogin]= useState("")
-  const [loginpass,setpass]= useState("")
-  const login = async()=>{
-    try{
-      const user =await signInWithEmailAndPassword(auth,loginemail,loginpass)
-      console.log(user)
-      } catch (error)
-      {
-        console.log (error.message)
-      }
-
+import { useNavigate } from "react-router-dom";
+const Login = () => {
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+     
+  const onLogin = (e) => {
+      e.preventDefault();
+      signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+          // Signed in
+          const user = userCredential.user;
+          navigate("/profile")
+          console.log(user);
+      })
+      .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          console.log(errorCode, errorMessage)
+      });
+     
   }
+
   return (
       <>
   <div className="row col-md-10 offset-md-1">
@@ -27,13 +37,12 @@ function SignIn() {
     <h1>Sign in</h1>
     <p>Stay updated on your professional world</p>
     
-    <input placeholder=" &nbsp;Email or Phone"  type="email"  onChange={(event)=>{setlogin(event.target.value)}}></input><br></br>
-    
-    <input id="pass" placeholder=" &nbsp;Password"   className="NGR-password-input" type="password"  onChange={(event)=>{setpass(event.target.value)}}></input><br></br>
+    <input placeholder=" &nbsp;Email or Phone"  type="email"  onChange={(e)=>{setEmail(e.target.value)}}></input><br></br>
+    <input id="pass" placeholder=" &nbsp;Password"   className="NGR-password-input" type="password"  onChange={(e)=>{setPassword(e.target.value)}}></input><br></br>
     
         <a className="NGR-forgot-password">Forgot password?</a>
     
-    <button className="NGR-sign-in-btn btn" type="submit" onClick={login}>Sign in</button><br></br>
+    <button className="NGR-sign-in-btn btn" type="submit" onClick={onLogin}>Sign in</button><br></br>
     <div className='d-flex'><hr></hr>    <span className="mrgn-top-10px">&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr></hr></div>
     <button className="NGR-agree-btn-apple btn" type="submit">
        <svg width="24" height="24" viewBox="0 2 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="transparent">
@@ -83,4 +92,4 @@ function SignIn() {
   );
 }
  
-export default SignIn;
+export default Login;

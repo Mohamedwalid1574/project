@@ -34,8 +34,11 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
-import SignIn from './view/signin';
-import SignUp from './view/signup';
+import Login from './view/signin';
+import Signup from './view/signup';
+import Interview from './view/jobs/sideBar/interviewPrep';
+import Alartjobs from './view/jobs/sideBar/jobAlerts';
+import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 function App() {
   return (
 
@@ -52,6 +55,7 @@ function App() {
           <Route path="/pages" element={<Pages />} />
           <Route path="/peopleIFollow" element={<Peopleifollow />} />
           <Route path="/pageofgroup" element={<Pageofgroup />} />
+          <Route path="/interview" element={<Interview />} />
           <Route path="/profile" element={<Profile />} />
           <Route path='/recommended' element={<SkillsRecommended />} />
           <Route path='/assessment' element={<Skills />} />
@@ -64,8 +68,10 @@ function App() {
           <Route path='/forth' element={<JobSeekerForth />} />
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
-        <Route path='/signup' element={<SignUp/>} />
-        <Route path='/signin' element={<SignIn/>} />
+        <Route path='/signup' element={<Signup/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/alertjob' element={<Alartjobs/>} />
+        <Route path='/builder' element={<ResumeBuilder/>} />
         </Routes>
       </Router>
     </>

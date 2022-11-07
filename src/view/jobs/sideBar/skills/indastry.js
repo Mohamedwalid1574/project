@@ -13,16 +13,16 @@ function SkillsIndustry()
                     <div className='es_div3_job card'>
                         <h4>Skill assessments</h4>
                         <p className='es_font4'>Check your skill level. Answer 15 multiple choice questions, score in the top 30%, and earn a skill badge. <a href='#' className='es_link'>Learn more</a></p>
-<hr/>
+<div className='es_hr mt-4 mb-4'></div>
 <div>
-    <button className='btn  btn-outline-secondary ms-2 rounded-pill'><a href='/assessment' className='es_link3 '>All</a></button>
-    <button className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/recommended' className=' es_link3'>Recommended</a></button>
-    <button className='btn btn-success ms-2 rounded-pill'><a href='/industry' className='es_link2'>Industry Knowlodge</a></button>
-    <button className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/tools' className='es_link3'>Tools & Technology</a></button>
+    <div className='btn  btn-outline-secondary ms-2 rounded-pill'><a href='/assessment' className='es_link3 '>All</a></div>
+    <div className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/recommended' className=' es_link3'>Recommended</a></div>
+    <div className='btn btn-success ms-2 rounded-pill'><a href='/industry' className='es_link2'>Industry Knowlodge</a></div>
+    <div className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/tools' className='es_link3'>Tools & Technology</a></div>
 </div>
 <div id='div1'>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -31,7 +31,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         React.js
@@ -41,7 +41,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -50,7 +50,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -59,7 +59,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -68,7 +68,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -77,7 +77,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -86,7 +86,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -95,7 +95,7 @@ function SkillsIndustry()
     </div>
 </div>
 <div className='d-flex mt-4'>
-    <img src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
+    <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
     <div>
         <p>
         Object-Oriented Programming (OOP)
@@ -120,7 +120,7 @@ function SkillsIndustry()
                                 <p className='es_font3 es_font4'>To retake</p>
                             </div>
                             
-                        </div><img className='es_img1 es_img_skill' src={'https://imagevars.gulfnews.com/2022/04/01/Procastination_17fe54fefca_large.jpg'}/>
+                        </div><img alt='' className='es_img1 es_img_skill' src={'https://imagevars.gulfnews.com/2022/04/01/Procastination_17fe54fefca_large.jpg'}/>
                     </div>
                     
                     
