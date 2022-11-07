@@ -73,10 +73,10 @@ function App() {
         </Routes>
       </Router>
 
-      <div className="bg1">
+      {/* <div className="bg1">
         <HeaderAndMessage />
         <Home />
-      </div>
+      </div> */}
 
     </>
 
