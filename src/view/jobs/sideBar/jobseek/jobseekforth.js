@@ -3,9 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import "../es_jobs.css";
 import YoutubeEmbed from '../video';
-function JobSeekerForth()
-{
-    return(
+function JobSeekerForth() {
+    return (
         <>
             <div className='d-flex '>
                 <div className='d-flex es_div1_job'>
@@ -23,11 +22,11 @@ function JobSeekerForth()
                 </div>
                 <div className='d-flex es_cards_job'>
                     <div className='es_div5_job'>
-                        <div  className='card es_card_job '><a href='/first' className='es_link1'>1. I want to improve my resume</a></div>
-                        <div  className='card es_card_job '><a href='/second' className='es_link1'>2. I want to inprove my linkedin profile page</a></div>
-                        <div  className='card es_card_job'><a href='/third' className='es_link1'>3. I want to get a referral</a></div>
-                        <div  className='card es_card_job es_btn'><a href='/forth' className='es_link'>4. I want to use linkedin to network to find a job</a></div>
-                        <div  className='card es_card_job'><a href='/check' className='es_link1'>5. Checklist of best practices for getting a job</a></div>
+                        <div className='card es_card_job '><a href='/first' className='es_link1'>1. I want to improve my resume</a></div>
+                        <div className='card es_card_job '><a href='/second' className='es_link1'>2. I want to inprove my linkedin profile page</a></div>
+                        <div className='card es_card_job'><a href='/third' className='es_link1'>3. I want to get a referral</a></div>
+                        <div className='card es_card_job es_btn'><a href='/forth' className='es_link'>4. I want to use linkedin to network to find a job</a></div>
+                        <div className='card es_card_job'><a href='/check' className='es_link1'>5. Checklist of best practices for getting a job</a></div>
                     </div>
                     <div>
                     <div className='es_div3_job card'>
@@ -60,9 +59,6 @@ function JobSeekerForth()
     <a href='#' className='es_div4_job'> <div className='btn btn-primary'>Start my free manth</div></a>
     </div>
                     </div>
-                    
-
-                </div>
                 </div>
             </div>
 

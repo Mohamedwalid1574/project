@@ -1,8 +1,9 @@
-import {Link} from "react-router-dom";
+/* eslint-disable no-unused-vars */
+import { Link } from "react-router-dom";
 import './signup.css';
 import LI from './Images/LI.png';
-import Black_logo from'./Images/black-logo.png';
-import G_logo  from './Images/g-logo.png';
+import Black_logo from './Images/black-logo.png';
+import G_logo from './Images/g-logo.png';
 import { useState } from "react";
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import {auth} from "../model/firebaseConfige"
@@ -60,29 +61,29 @@ const Signup = () => {
   <p className="NGR-get-help ">Looking to create a page for a business?<a className="NGR-user-copyrights"> Get help </a></p>
     </div>
 
-</div>
-    <div className='NGR-footer'>
-    <img className="NGR-black-logo "src={Black_logo}/>
-      <span className="NGR-footer-texts">©  2021</span>
-      <a className="NGR-footer-texts" href='www.google.com' >About</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Accessibilty</a>
-      <a className="NGR-footer-texts" href='www.google.com' >User Agreement</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Privacy Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Cookie Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Copyright Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Brand Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Guest Controls</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Community Guidelines</a>
-      
-    <select className="NGR-slct">
-        <option>Language</option>
-        <option >English</option>
-        <option >Spanish</option>
-        <option  >Arabic</option>
-        <option >Germany</option>
+      </div>
+      <div className='NGR-footer'>
+        <img className="NGR-black-logo" src={Black_logo} alt='' />
+        <span className="NGR-footer-texts">©  2021</span>
+        <a className="NGR-footer-texts" href='www.google.com' >About</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Accessibilty</a>
+        <a className="NGR-footer-texts" href='www.google.com' >User Agreement</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Privacy Policy</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Cookie Policy</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Copyright Policy</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Brand Policy</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Guest Controls</a>
+        <a className="NGR-footer-texts" href='www.google.com' >Community Guidelines</a>
+
+        <select className="NGR-slct">
+          <option>Language</option>
+          <option>English</option>
+          <option>Spanish</option>
+          <option>Arabic</option>
+          <option>Germany</option>
         </select>
-    
-    </div>
+
+      </div>
     </>
   );
 }

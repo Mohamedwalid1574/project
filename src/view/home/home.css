@@ -1,0 +1,551 @@
+body {
+    height: 1500px;
+}
+
+.nada_bg1 {
+    background-color: #f3f2ef;
+    margin-top: 2rem;
+}
+
+
+.nada_sideBar {
+    flex: 1;
+    /* background-color:#f3f2ef; */
+}
+
+.nada_st1 {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center; */
+    height: 273px;
+    padding-left: 25px;
+
+
+    /* making the left sidebar sticky */
+    position: sticky;
+    top: 30px;
+}
+
+.nada_nd2 {
+    height: 273px;
+    padding: 16px 16px;
+
+
+    /* making the left sidebar sticky */
+    position: sticky;
+    top: 30px;
+}
+
+.inputt {
+    width: 100%;
+    border: 0.3px solid rgba(0, 0, 0, 0.301);
+    border-radius: 15px;
+    font-size: 15px;
+    /* font-family: unset; */
+    font-weight: 600;
+    padding: 5px 35px 5px 10px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+    left: -4px;
+    outline: #f3f2ef;
+}
+
+.btn-bar {
+    display: flex;
+    align-items: center;
+}
+
+.spc-bt {
+    justify-content: space-betweens;
+}
+
+.nada_fs-13 {
+    font-size: 13px;
+}
+
+.nada_fs-15 {
+    font-size: 15px;
+}
+
+.nada_line {
+    border-right: #0000002b 1px solid;
+    height: 50px;
+}
+
+.react {
+    padding: 10px 35px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff5c;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.react {
+    padding: 10px 37px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: #ffffff5c; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+    width: 25%;
+    /* justify-content: space-around; */
+}
+
+.react:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+    color: black;
+}
+
+.nada_post-img {
+    width: 505px;
+    margin-top: -1rem;
+    border-radius: 15px;
+}
+
+/* .material-symbols-rounded {} */
+.bold-text.react-p {
+    font-size: 12px;
+    width: 60px;
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+}
+
+/* Reaction starts---------------------------- */
+
+@-webkit-keyframes facebook {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.facebook-reactions {
+    width: 100px;
+    height: 52px;
+    float: left;
+    position: relative;
+    margin: 50px 0 50px calc(50% - 50px);
+    text-align: center;
+    line-height: 87px;
+    transition: opacity .20s ease;
+    font-size: 1em;
+    color: #2E2929;
+    cursor: pointer;
+
+    /* -------position------ */
+    position: relative;
+    top: -80px;
+    right: 25px;
+}
+
+.facebook-reactions::before {
+    content: "";
+    width: 0px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: -33px 53px;
+
+}
+
+.facebook-reactions:hover {
+    text-decoration: underline;
+}
+
+.facebook-reactions:hover .reactions {
+    display: block;
+    opacity: 1;
+}
+
+.facebook-reactions:hover .reactions li.reactions-curtir {
+    -webkit-animation: facebook 0.1s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions:hover .reactions li.reactions-amei {
+    -webkit-animation: facebook 0.2s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions:hover .reactions li.reactions-haha {
+    -webkit-animation: facebook 0.3s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions:hover .reactions li.reactions-uau {
+    -webkit-animation: facebook 0.4s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions:hover .reactions li.reactions-triste {
+    -webkit-animation: facebook 0.5s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions:hover .reactions li.reactions-grr {
+    -webkit-animation: facebook 0.6s cubic-bezier(0.49, 0, 0.46, 1);
+}
+
+.facebook-reactions .reactions {
+    opacity: 0;
+    display: none;
+    width: 292px;
+    height: 52px;
+    position: absolute;
+    top: -30px;
+    left: -94px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 11px #c0c8c9;
+    border-radius: 50px;
+}
+
+.facebook-reactions .reactions ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.facebook-reactions .reactions li {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: relative;
+    margin: 7px 0 0 7px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    transition: transform .25s ease;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.facebook-reactions .reactions li.reactions-curtir,
+.facebook-reactions .reactions li.reactions-amei,
+.facebook-reactions .reactions li.reactions-haha,
+.facebook-reactions .reactions li.reactions-uau,
+.facebook-reactions .reactions li.reactions-triste,
+.facebook-reactions .reactions li.reactions-grr {
+    background-size: cover;
+}
+
+.facebook-reactions .reactions li.reactions-curtir {
+    background-position: 0 -80px;
+}
+
+.facebook-reactions .reactions li.reactions-curtir:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-curtir:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li.reactions-amei {
+    background-position: 0 -119px;
+}
+
+.facebook-reactions .reactions li.reactions-amei:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-amei:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li.reactions-haha {
+    background-position: 0 -39px;
+}
+
+.facebook-reactions .reactions li.reactions-haha:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-haha:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li.reactions-uau {
+    background-position: 0 -199px;
+}
+
+.facebook-reactions .reactions li.reactions-uau:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-uau:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li.reactions-triste {
+    background-position: 0 -159px;
+}
+
+.facebook-reactions .reactions li.reactions-triste:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-triste:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li.reactions-grr {
+    background-position: 0 0;
+}
+
+.facebook-reactions .reactions li.reactions-grr:hover {
+    transform: translateY(-6px) scale(1.2);
+}
+
+.facebook-reactions .reactions li.reactions-grr:hover:before {
+    content: attr(data-title);
+    transform: scale(0.8);
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    width: 46px;
+    height: 21px;
+    background-color: #2E2929;
+    border-radius: 50px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.facebook-reactions .reactions li label {
+    width: 100%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+#reactions-curtir:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: 0 35px;
+}
+
+#reactions-amei:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: -17px 35px;
+}
+
+#reactions-haha:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: -17px 52px;
+}
+
+#reactions-uau:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: -17px 18px;
+}
+
+#reactions-triste:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: 0px 18px;
+}
+
+#reactions-grr:checked~.facebook-reactions:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 1px;
+    left: 3px;
+    background-image: url(https://henriquemelanda.com.br/css-components/assets/images/sprite-reactions.png);
+    background-position: 0px 52px;
+}
+
+.mais {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    text-align: center;
+}
+
+.mais a {
+    font-size: 1.2em;
+    color: #000;
+}
+
+/* Reaction ends---------------------------- */
+
+
+.likesss {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -65px;
+    right: -75px;
+}
+
+.reactCircle {
+    width: 10px;
+    margin-left: 4px;
+    margin-bottom: -45px;
+}
+
+.nav-link::hover {
+    color: red;
+}
+
+.nada_userCircle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    position: relative;
+    top: -1px;
+    right: -5px;
+}
+
+.nada_input_commnent {
+    /* width: 100%; */
+    /* margin-left: 10px; */
+    border: 0.3px solid rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 35px 5px 10px;
+    outline: #f3f2ef;
+    padding: 5px 15px;
+    width: 210%;
+    height: 35px;
+}
+
+.nada_input_commnent input {
+    border: #0ff0;
+    outline: #0ff0;
+    width: 100%;
+}
+
+.emo_file {
+    cursor: pointer;
+    opacity: 0.8s;
+    font-size: 20px;
+}
+
+/* width: 475px; */
+.nada_emmmo:hover {
+    color: blue;
+}
+
+.nada_post_btn {
+    font-size: 13px;
+    padding: 4px;
+    position: relative;
+    top: 0px;
+    right: -65px;
+    border-radius: 10px;
+}

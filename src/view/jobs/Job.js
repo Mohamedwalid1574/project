@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from 'react'
 import './Job.css'
@@ -10,11 +12,16 @@ import Dropdown from 'react-bootstrap/Dropdown';
 // eslint-disable-next-line no-unused-vars
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Container from 'react-bootstrap/Container';
+// eslint-disable-next-line no-unused-vars
 import Form from 'react-bootstrap/Form';
+// eslint-disable-next-line no-unused-vars
 import Nav from 'react-bootstrap/Nav';
+// eslint-disable-next-line no-unused-vars
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+// eslint-disable-next-line no-unused-vars
 import Card from 'react-bootstrap/Card';
+// eslint-disable-next-line no-unused-vars
 import ListGroup from 'react-bootstrap/ListGroup';
 
 function Job() {
@@ -827,6 +834,7 @@ Explore our curated guide of expert-led courses, such as how to improve your res
 </div>
 <div className='maro_se3_fx'>
 <a href='#' className='maro_se3_lk' >Get the LinkedIn app </a>
+
 <a href='#' className='maro_se3_lk' >more</a>
 </div>
 </div>
@@ -866,24 +874,3 @@ Explore our curated guide of expert-led courses, such as how to improve your res
 }
 
 export default Job;
-
-
-<ButtonGroup vertical>
-    
-
-    <DropdownButton
-        as={ButtonGroup}
-        title="Dropdown"
-        id="bg-vertical-dropdown-1"
-    >
-        <Dropdown.Item eventKey="1">Dropdown link</Dropdown.Item>
-        <Dropdown.Item eventKey="2">Dropdown link</Dropdown.Item>
-    </DropdownButton>
-
-    
-    
-
-    
-
-    
-    </ButtonGroup>

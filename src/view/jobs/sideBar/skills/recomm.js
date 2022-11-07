@@ -105,16 +105,16 @@ function SkillsRecommended()
 </div>
 
 
-</div>
-                    
-    <div className='es_card_skill card col-4 ms-4'>
-                        <h4>Your assessments</h4>
-                        <div className='d-flex'>
-                            <div className='es_div1_skill'>
-                                <h3 className='es_font_color'>0</h3>
-                                <p className='es_font3 es_font4'>Badge</p>
-                            </div>
-                            <div className='es_div2_skill'>
+                </div>
+
+                <div className='es_card_skill card col-4 ms-4'>
+                    <h4>Your assessments</h4>
+                    <div className='d-flex'>
+                        <div className='es_div1_skill'>
+                            <h3 className='es_font_color'>0</h3>
+                            <p className='es_font3 es_font4'>Badge</p>
+                        </div>
+                        <div className='es_div2_skill'>
                             <h3 className='es_font_color'>0</h3>
                                 <p className='es_font3 es_font4'>To retake</p>
                             </div>
@@ -124,8 +124,8 @@ function SkillsRecommended()
                     
                     
 
-               
-                </div>
+
+            </div>
 
         </>
     )

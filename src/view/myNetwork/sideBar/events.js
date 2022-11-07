@@ -15,10 +15,10 @@ export default function Events() {
                             <div className="list-group list-group-flush ">
                                 <div className='d-flex justify-content-between align-items-center px-3 pt-3'>
                                     <p className="m-0">Events    </p>
-                                    <a className="text-decoration-none text-primary" >Create </a>
+                                    <a href='/#' className="text-decoration-none text-primary" >Create </a>
                                 </div>
                                 <hr />
-                                <img src={empty} className='h-25' />
+                                <img alt='' src={empty} className='h-25' />
                                 <div className="card-text mt-3 mb-5 text-xl-center" > <h6 className="form-control-lg mb-0"> No events</h6>
                                     Looks like you are not attending any events.</div>
                             </div>
@@ -27,7 +27,7 @@ export default function Events() {
 
                     <div className="col-md-4 col-sm-12">
                         <div className='center'>
-                            <img src={photo} />
+                            <img alt='' src={photo} />
                             <div className="text-xl-center mt-3" >
                                 <span>
                                     <a href="https://about.linkedin.com/" className="link m-2  text-muted">About
@@ -41,7 +41,7 @@ export default function Events() {
                                     <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
                                         className="link m-2">Help Center</a>
                                 </span>
-                                <span><a href="" className="link m-2">Privacy & Terms i</a></span>
+                                <span><a href="/#" className="link m-2">Privacy & Terms i</a></span>
                                 <span>
                                     <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
                                         className="link m-2">Ad Choices</a>
@@ -53,7 +53,7 @@ export default function Events() {
                                     </a>
                                 </span>
                                 <div className="text-center">
-                                    <img src="./image/foot.png" /><span >Linkedin Corporation
+                                    <img alt='' src="./image/foot.png" /><span >Linkedin Corporation
                                         © 2022</span>
                                 </div>
                             </div>

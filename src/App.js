@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import React from 'react'
 import './App.css';
@@ -19,7 +20,8 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-
+import Home from './view/home/home';
+import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
 
@@ -39,11 +41,12 @@ import Signup from './view/signup';
 import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
+import Notifications from './view/notification/notifications';
 function App() {
   return (
 
     <>
-    
+
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -72,10 +75,16 @@ function App() {
         <Route path='/login' element={<Login/>} />
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
+        <Route path='/not' element={<Notifications />} />
         </Routes>
       </Router>
-    </>
 
+      <div className="bg1">
+        <HeaderAndMessage />
+        <Home />
+      </div>
+
+    </>
 
   );
 

@@ -1,0 +1,138 @@
+.maro_not{
+    background-color:rgb(245, 245, 245) ;
+    width: 100%;
+    height: 100%;
+}
+.xmaro_se1{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.xmaro_se1_pt10{
+    display: block;
+}
+.xmaro_se1_lk0{
+    font-size: 18px;
+    
+    margin: 5px;
+}
+.xmaro_se1_lk20{
+    font-size: 13px;
+    margin: 10px 5px;
+    color:#0a66c2 ;
+    
+
+}
+.xmaro_se1_lk0:hover{
+    color: #000;
+}
+.xmaro_se1_lk20:hover{
+    text-decoration: underline;
+}
+.xmaro_se1_pt20{
+    display: block;
+    margin-bottom: 10px;
+}
+.xmaro_se30{
+    background-color: white;
+    border-radius: 10px;
+}
+.xmaro_se3_pt1{
+    display: flex;
+    justify-content: right;
+}
+.xmaro_se3_p1{
+    font-size: 14px;
+}
+.xmaro_se3_p2{
+    color: gray;
+    font-size: 14px;
+    align-items: center;
+
+}
+.xmaro_se3_pt2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.xmaro_se3_img{
+    border-radius: 50%;
+    width: 80px;
+
+    margin-right: 15px;
+}
+.xmaro_se3_pt3{
+    display: flex;
+    justify-content: center;
+}
+.xmaro_se3_pt4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xmaro_se3_p3{
+    font-size: 16px;
+    align-items: center;
+}
+.xmaro_se3_pt5{
+    display: flex;
+    justify-content: center;
+    
+}
+.xmaro_se3_btn0{
+    width: 120px;
+    height: 35px;
+    border-radius: 17px;
+    border:solid 1px #0a66c2 ;
+    color: #0a66c2;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.xmaro_se3_f1{
+    
+    font-size: 12px;
+    margin: 10px 50px;
+}
+.xmaro_se3_lk{
+    margin-left: 15px;
+    text-decoration: none;
+    color: gray;
+}
+.xmaro_se3_fx{
+    display: flex;
+}
+.xmaro_se3_lk2{
+    font-size: 13px;
+}
+.xmaro_se3_lk3{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+
+}
+.xmaro_se3_lk20{
+    font-size: 15px;
+    
+}
+.xmaro_se3_lk3:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.xmaro_se3_lk20:hover{
+    text-decoration: underline;
+}
+.xmaro_se3_end{
+    display: flex;
+    justify-content: center;
+}
+.xmaro_se3_e1{
+    font-size: 17px;
+    color:#0a66c2 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.xmaro_se3_e2{
+    font-size: 13px;
+    padding-top: 3px;
+}

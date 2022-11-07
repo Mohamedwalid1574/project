@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
