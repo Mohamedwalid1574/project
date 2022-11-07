@@ -34,6 +34,7 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
+import Notifications from './view/notification/Notifications';
 function App() {
   return (
 
@@ -60,8 +61,9 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
-          <Route path='/pre' element={<Prepage/>} />
+          <Route path='/pre' element={<Prepage/>} /> 
         <Route path='/job' element={<Job/>} />
+        <Route path='/not' element={<Notifications/>}/>
         </Routes>
       </Router>
     </>
