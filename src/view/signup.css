@@ -1,7 +1,7 @@
 
-body{
+/* body{
     background-color: #f3f2ef;
-}
+} */
 .NGR-header{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -17,11 +17,11 @@ body{
     padding: 24px 24px 15px ;
     width: 410px;
 }
-label{
+.NGR-label{
     color: #00000099;
     font-size: 14px;
 }
-input{
+.NGR-input{
     width: 352px;
     height: 32px;
     padding: 0px 10px;
@@ -49,7 +49,7 @@ input{
     padding: 0px 16px;
     border: none;
 }
-hr{
+.NGR-hr{
     height: 1px;
     width: 150px;
     text-align: center;

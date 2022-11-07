@@ -1,5 +1,5 @@
 body {
-    height: 5000px;
+    height: 1500px;
 }
 
 .nada_bg1 {
@@ -20,11 +20,21 @@ body {
     align-self: center; */
     height: 273px;
     padding-left: 25px;
+
+
+    /* making the left sidebar sticky */
+    position: sticky;
+    top: 30px;
 }
 
 .nada_nd2 {
     height: 273px;
     padding: 16px 16px;
+
+
+    /* making the left sidebar sticky */
+    position: sticky;
+    top: 30px;
     /* justify-content: center;
     align-items: center;
     text-align: center; */
@@ -497,6 +507,56 @@ body {
     margin-bottom: -45px;
 }
 
-.nav-link::hover{
+.nav-link::hover {
     color: red;
+}
+
+.nada_userCircle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    position: relative;
+    top: -1px;
+    right: -5px;
+}
+
+.nada_input_commnent {
+    /* width: 100%; */
+    /* margin-left: 10px; */
+    border: 0.3px solid rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 35px 5px 10px;
+    outline: #f3f2ef;
+    padding: 5px 15px;
+    width: 210%;
+    height: 35px;
+}
+
+.nada_input_commnent input {
+    border: #0ff0;
+    outline: #0ff0;
+    width: 100%;
+}
+
+.emo_file {
+    cursor: pointer;
+    opacity: 0.8s;
+    font-size: 20px;
+}
+
+/* width: 475px; */
+.nada_emmmo:hover {
+    color: blue;
+}
+
+.nada_post_btn {
+    font-size: 13px;
+    padding: 4px;
+    position: relative;
+    top: 0px;
+    right: -65px;
+    border-radius: 10px;
 }

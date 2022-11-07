@@ -1,53 +1,53 @@
-import {Link} from "react-router-dom";
+/* eslint-disable no-unused-vars */
+import { Link } from "react-router-dom";
 import './signin.css';
 import LI from './Images/LI.png';
 import { useState } from "react";
-import {auth} from "../model/firebaseConfige"
+import { auth } from "../model/firebaseConfige"
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 function SignIn() {
-  const [loginemail,setlogin]= useState("")
-  const [loginpass,setpass]= useState("")
-  const login = async()=>{
-    try{
-      const user =await signInWithEmailAndPassword(auth,loginemail,loginpass)
+  const [loginemail, setlogin] = useState("")
+  const [loginpass, setpass] = useState("")
+  const login = async () => {
+    try {
+      const user = await signInWithEmailAndPassword(auth, loginemail, loginpass)
       console.log(user)
-      } catch (error)
-      {
-        console.log (error.message)
-      }
+    } catch (error) {
+      console.log(error.message)
+    }
 
   }
   return (
-      <>
-  <div className="row col-md-10 offset-md-1">
-      <div className="NGR-header"><img className='NGR-logo' src={LI}/></div>
-  <div className="NGR-frm box-shadow shadow  mb-5 bg-body rounded ">
-  <form >
-    <h1>Sign in</h1>
-    <p>Stay updated on your professional world</p>
-    
-    <input placeholder=" &nbsp;Email or Phone"  type="email"  onChange={(event)=>{setlogin(event.target.value)}}></input><br></br>
-    
-    <input id="pass" placeholder=" &nbsp;Password"   className="NGR-password-input" type="password"  onChange={(event)=>{setpass(event.target.value)}}></input><br></br>
-    
-        <a className="NGR-forgot-password">Forgot password?</a>
-    
-    <button className="NGR-sign-in-btn btn" type="submit" onClick={login}>Sign in</button><br></br>
-    <div className='d-flex'><hr></hr>    <span className="mrgn-top-10px">&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr></hr></div>
-    <button className="NGR-agree-btn-apple btn" type="submit">
-       <svg width="24" height="24" viewBox="0 2 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="transparent">
-      </rect><path d="M17.569 12.6254C17.597 15.652 20.2179 16.6592 20.247 16.672C20.2248 16.743 19.8282 18.1073 18.8662 19.5166C18.0345 20.735 17.1714 21.9488 15.8117 21.974C14.4756 21.9986 14.046 21.1799 12.5185 21.1799C10.9915 21.1799 10.5142 21.9489 9.2495 21.9987C7.93704 22.0485 6.93758 20.6812 6.09906 19.4673C4.38557 16.9842 3.0761 12.4508 4.83438 9.39061C5.70786 7.87092 7.26882 6.90859 8.96311 6.88391C10.2519 6.85927 11.4683 7.753 12.2562 7.753C13.0436 7.753 14.5219 6.67821 16.0759 6.83605C16.7265 6.8632 18.5527 7.09947 19.7253 8.81993C19.6309 8.87864 17.5463 10.095 17.569 12.6254ZM15.058 5.1933C15.7548 4.34789 16.2238 3.171 16.0959 2C15.0915 2.04046 13.877 2.67085 13.1566 3.5158C12.5109 4.26404 11.9455 5.46164 12.0981 6.60946C13.2176 6.69628 14.3612 6.03925 15.058 5.1933Z" fill="black">
-      </path></svg> Sign in with Apple</button>
-  </form>
-    </div>
-</div>
-  <p className="mrgn-top-10px NGR-new-to-linkedin">New to LinkedIn?<a className="NGR-join-now"> Join now </a></p>
+    <>
+      <div className="row col-md-10 offset-md-1">
+        <div className="NGR-header"><img className='NGR-logo' src={LI} alt='' /></div>
+        <div className="NGR-frm box-shadow shadow  mb-5 bg-body rounded ">
+          <form >
+            <h1>Sign in</h1>
+            <p>Stay updated on your professional world</p>
+
+            <input className="NGR-input2" placeholder=" &nbsp;Email or Phone" type="email" onChange={(event) => { setlogin(event.target.value) }}></input><br></br>
+
+            <input className="NGR-input2 NGR-password-input" id="pass" placeholder=" &nbsp;Password" type="password" onChange={(event) => { setpass(event.target.value) }}></input><br></br>
+
+            <a className="NGR-a NGR-forgot-password" href="/#">Forgot password?</a>
+
+            <button className="NGR-sign-in-btn btn" type="submit" onClick={login}>Sign in</button><br></br>
+            <div className='d-flex'><hr></hr>    <span className="mrgn-top-10px">&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr className="NGR-hr2"></hr></div>
+            <button className="NGR-agree-btn-apple btn" type="submit">
+              <svg width="24" height="24" viewBox="0 2 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="transparent">
+              </rect><path d="M17.569 12.6254C17.597 15.652 20.2179 16.6592 20.247 16.672C20.2248 16.743 19.8282 18.1073 18.8662 19.5166C18.0345 20.735 17.1714 21.9488 15.8117 21.974C14.4756 21.9986 14.046 21.1799 12.5185 21.1799C10.9915 21.1799 10.5142 21.9489 9.2495 21.9987C7.93704 22.0485 6.93758 20.6812 6.09906 19.4673C4.38557 16.9842 3.0761 12.4508 4.83438 9.39061C5.70786 7.87092 7.26882 6.90859 8.96311 6.88391C10.2519 6.85927 11.4683 7.753 12.2562 7.753C13.0436 7.753 14.5219 6.67821 16.0759 6.83605C16.7265 6.8632 18.5527 7.09947 19.7253 8.81993C19.6309 8.87864 17.5463 10.095 17.569 12.6254ZM15.058 5.1933C15.7548 4.34789 16.2238 3.171 16.0959 2C15.0915 2.04046 13.877 2.67085 13.1566 3.5158C12.5109 4.26404 11.9455 5.46164 12.0981 6.60946C13.2176 6.69628 14.3612 6.03925 15.058 5.1933Z" fill="black">
+                </path></svg> Sign in with Apple</button>
+          </form>
+        </div>
+      </div>
+      <p className="mrgn-top-10px NGR-new-to-linkedin">New to LinkedIn?<a className="NGR-a NGR-join-now" href="/#"> Join now </a></p>
 
 
-    <div className='NGR-footer'>
-    
-    {/* <span><svg preserveAspectRatio="xMinYMin meet" focusable="false"><g className="scaling-icon" style="fill-opacity: 1"><defs></defs><g className="logo-14dp">
+      <div className='NGR-footer'>
+
+        {/* <span><svg preserveAspectRatio="xMinYMin meet" focusable="false"><g className="scaling-icon" style="fill-opacity: 1"><defs></defs><g className="logo-14dp">
     <g className="dpi-1"><g className="inbug" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <path d="M14,1.25 L14,12.75 C14,13.44 13.44,14 12.75,14 L1.25,14 C0.56,14 0,13.44 0,12.75 L0,1.25 C0,0.56 0.56,0 1.25,0 L12.75,0 C13.44,0 14,0.56 14,1.25" className="bug-text-color" fill="#FFFFFF" transform="translate(42.000000, 0.000000)">
     </path>
@@ -59,28 +59,28 @@ function SignIn() {
     </path></g><g className="linkedin-text"><path d="M136,41 L130,41 L130,37.5 C128.908,39.162 125.727,41.3 122.5,41.3 C115.668,41.3 111.2,36.975 111.2,30 C111.2,23.594 114.951,17.7 121.5,17.7 C124.441,17.7 127.388,18.272 129,20.5 L129,7 L136,7 L136,41 Z M123.25,23.9 C119.691,23.9 117.9,26.037 117.9,29.5 C117.9,32.964 119.691,35.2 123.25,35.2 C126.81,35.2 129.1,32.964 129.1,29.5 C129.1,26.037 126.81,23.9 123.25,23.9 L123.25,23.9 Z" fill="#000000"></path><path d="M108,37.125 C105.722,40.02 101.156,41.3 96.75,41.3 C89.633,41.3 85.2,36.354 85.2,29 C85.2,21.645 90.5,17.7 97.75,17.7 C103.75,17.7 108.8,21.917 108.8,30 C108.8,31.25 108.6,32 108.6,32 L92,32 L92.111,32.67 C92.51,34.873 94.873,36 97.625,36 C99.949,36 101.689,34.988 102.875,33.375 L108,37.125 Z M101.75,27 C101.797,24.627 99.89,22.7 97.328,22.7 C94.195,22.7 92.189,24.77 92,27 L101.75,27 Z" fill="#000000"></path><polygon fill="#000000" points="63 7 70 7 70 27 78 18 86.75 18 77 28.5 86.375 41 78 41 70 30 70 41 63 41"></polygon><path d="M37,18 L43,18 L43,21.375 C43.947,19.572 47.037,17.7 50.5,17.7 C57.713,17.7 59,21.957 59,28.125 L59,41 L52,41 L52,29.625 C52,26.969 52.152,23.8 48.5,23.8 C44.8,23.8 44,26.636 44,29.625 L44,41 L37,41 L37,18 Z" fill="#000000"></path><path d="M29.5,6.125 C31.813,6.125 33.875,8.189 33.875,10.5 C33.875,12.811 31.813,14.875 29.5,14.875 C27.19,14.875 25.125,12.811 25.125,10.5 C25.125,8.189 27.19,6.125 29.5,6.125 L29.5,6.125 Z M26,41 L33,41 L33,18 L26,18 L26,41 Z" fill="#000000">
     </path><polygon fill="#000000" points="0 7 7 7 7 34 22 34 22 41 0 41"></polygon></g></g></g></g></svg></span>
       */}
-      <span className="NGR-footer-texts">©  2021</span>
-      <a className="NGR-footer-texts" href='www.google.com' >About</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Accessibilty</a>
-      <a className="NGR-footer-texts" href='www.google.com' >User Agreement</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Privacy Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Cookie Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Copyright Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Brand Policy</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Guest Controls</a>
-      <a className="NGR-footer-texts" href='www.google.com' >Community Guidelines</a>
-      
-    <select className="NGR-slct">
-        <option>Language</option>
-        <option >English</option>
-        <option >Spanish</option>
-        <option  >Arabic</option>
-        <option >Germany</option>
-    </select>
-    
-    </div>
+        <span className="NGR-footer-texts">©  2021</span>
+        <a className="NGR-a NGR-a NGR-footer-texts" href='www.google.com' >About</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Accessibilty</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >User Agreement</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Privacy Policy</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Cookie Policy</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Copyright Policy</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Brand Policy</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Guest Controls</a>
+        <a className="NGR-a NGR-footer-texts" href='www.google.com' >Community Guidelines</a>
+
+        <select className="NGR-slct">
+          <option>Language</option>
+          <option >English</option>
+          <option >Spanish</option>
+          <option  >Arabic</option>
+          <option >Germany</option>
+        </select>
+
+      </div>
     </>
   );
 }
- 
+
 export default SignIn;

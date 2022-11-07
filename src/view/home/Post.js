@@ -4,8 +4,9 @@ import Comments from "./Comments";
 import alink from './Hiro.jfif'
 import RectionPopUp from "./RectionPopUp";
 import './sidebar1.css';
-
-
+import user from './mypic.png';
+import EmojiPicker from 'emoji-picker-react';
+import { useState } from "react";
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
@@ -25,6 +26,15 @@ const Post = () => {
         width: '97%', textAlign: 'center', color: '#00000026', marginTop: '3px'
     }
 
+    const [picker, setPicker] = useState(false);
+    const [comment, setComment] = useState(false);
+    const commentHandele = () => {
+        <>
+            <div>
+                {comment}
+            </div>
+        </>
+    }
     return (
         <>
             <div>
@@ -43,8 +53,8 @@ const Post = () => {
                         <p className="muted-text fs-13 ms-3" style={{ cursor: 'pointer' }}>200</p>
                     </div>
                     <div>
-                        <a data-bs-toggle="collapse" href="#collapseExampleComment" role="button" aria-expanded="false" aria-controls="collapseExampleComment" 
-                        className="text-muted" style={{ cursor: 'pointer', fontSize:'14px', textDecoration:'none' }}>comments</a>
+                        <a data-bs-toggle="collapse" href="#collapseExampleComment" role="button" aria-expanded="false" aria-controls="collapseExampleComment"
+                            className="text-muted" style={{ cursor: 'pointer', fontSize: '14px', textDecoration: 'none' }}>comments</a>
                     </div>
                 </div>
 
@@ -59,7 +69,7 @@ const Post = () => {
                         {/* // style={{ position: 'relative', top: '-80px',right: '25px'}} */}
                     </div>
 
-                    <div className="react" data-bs-toggle="collapse" href="#collapseExampleComment" role="button" aria-expanded="false" aria-controls="collapseExampleComment"s>
+                    <div className="react" data-bs-toggle="collapse" href="#collapseExampleComment" role="button" aria-expanded="false" aria-controls="collapseExampleComment" s>
                         <span className="material-symbols-rounded"> chat </span>
                         <p className="bold-text react-p"> Comment</p>
                     </div>
@@ -75,11 +85,35 @@ const Post = () => {
 
                 {/* My Comment Goes/appears here  */}
                 <div className="collapse" id="collapseExampleComment">
-                    <div className="card card-body">
+                    <div className="m-2 card-body">
                         {/* the user's input Comment here starts */}
 
+                        <div className="d-flex">
+                            <img src={user} className="nada_userCircle" alt="" />
+                            <div className="d-flex nada_input_commnent" >
+
+                                {/*   the user's comment   */}
+                                <input type="text" placeholder="Add Your Comment ..." onChange={(e) => { setComment(e.target.value) }} className="" />
+
+
+                                <span class="emo_file material-symbols-rounded nada_emmmo" onClick={() => setPicker(!picker)}>add_reaction</span>
+                                <span class="emo_file material-symbols-rounded nada_emmmo">
+                                    add_photo_alternate
+                                </span>
+                                {/* // -- uploading file -- don't know why it's not working */}
+                                <input type="file" name="fileUpload" id="fileUpload" />
+                            </div>
+                        </div>
+                        {picker ? <EmojiPicker style={{ marginLeft: '10rem' }} /> : ' '}
+
+                        {comment ? <button onClick={() =>
+                            <>
+                                <div>{comment}</div>
+                            </>
+                        }
+                            className="btn btn-primary nada_post_btn">post</button> : ' '}
+
                         {/* the user's input Comment here ends */}
-                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                     </div>
                 </div>
                 {/* My Comment ends  */}
@@ -100,7 +134,6 @@ const Post = () => {
 
 
                             {/* modal content starts ...................... */}
-
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="/#">All Reactions</a>
@@ -117,6 +150,7 @@ const Post = () => {
                                     <a class="nav-link" href="/#">clap</a>
                                 </li>
                             </ul>
+
                             {/* people react starts--------------------- */}
                             <br />
                             {/* The margin is not working so that i used the br */}

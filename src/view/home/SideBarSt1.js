@@ -94,14 +94,14 @@ const SideBarSt1 = () => {
                             <a href='/#' >
                                 <span>Try Premium For Free</span>
                             </a>
-                            <span class="material-symbols-outlined" style={{ color: '#0000ffad' }}>workspace_premium </span>
+                            <span class="material-symbols-outlined" style={{ color: '#0000ffab' }}>workspace_premium </span>
                         </div>
                     </div>
 
                     <div type="button" className="list-group-item list-group-item-action">
                         <div className="d-flex" style={{ justifyContent: 'space-between' }}>
                             <span className="fw-bold" style={{ fontSize: '13px' }}>My Items</span>
-                            <a href='/#' > <span class="material-symbols-outlined"> collections_bookmark  </span> </a>
+                            <a href='/#' > <span style={{color: '#0000ffab'}} class="material-symbols-outlined"> collections_bookmark  </span> </a>
                         </div>
                     </div>
 

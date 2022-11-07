@@ -134,7 +134,7 @@ i :hover {
 }
 .material-symbols-outlined:hover{
     cursor: pointer;
-    color: blue;
+    /* color: blue; */
     font-weight: bolder;
 }
 .nada_exsmall{
