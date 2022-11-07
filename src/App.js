@@ -70,8 +70,8 @@ function App() {
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
 
-        
-        <Route path='/not' element={<Notifications/>}/>
+
+          <Route path='/not' element={<Notifications />} />
 
           <Route path='/pre' element={<Prepage />} />
           <Route path='/job' element={<Job />} />
@@ -83,8 +83,10 @@ function App() {
         </Routes>
       </Router>
 
-      
-    
+      {/* <div className="bg1">
+        <HeaderAndMessage />
+        <Home />
+      </div> */}
 
     </>
 
