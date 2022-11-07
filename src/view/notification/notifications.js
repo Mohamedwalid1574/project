@@ -23,15 +23,34 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line no-unused-vars
 import ListGroup from 'react-bootstrap/ListGroup';
+import {v4} from "uuid" ;
 
-function Notifications() {
+
+
+
+const Notifications =(props)=> {
+
+// eslint-disable-next-line no-unused-vars
+const notification =[
+{
+    id : v4 (),
+    type :"SUCCESS" ,
+    message : "hey"
+}
+];
+
+console.log(notification) ;
+
+
     return (
         <>
             <div className='maro_not'>
                 <div className='container'>
                     <div className='row'>
 
-                        <section className=' xmaro_se1 col-3'>
+
+<div className='col-3'>
+                        <section className=' xmaro_se1 '>
                             <div className='xmaro_se1_pt10'>
                                 
                                 <a href='#' className='xmaro_se1_lk0'>Manage your</a>
@@ -44,24 +63,24 @@ function Notifications() {
                                 <a href='#' className='xmaro_se1_lk20' >View Settings</a>
                                 </div>
                         </section>
+                        </div>
 
 
 
 
 
-
-
-                        <section className='xmaro_se2 col-5'>
+<div className='col-5'>
+                        <section className='xmaro_se2 '>
                             2
                         </section>
+                        </div>
 
 
 
 
 
-
-
-                        <section className='xmaro_se3 col-4 ' >
+<div className='col-4'>
+                        <section className='xmaro_se3  ' >
                             <div className='xmaro_se30'>
                             <div className='xmaro_se3_pt1'>
                                 <p className='xmaro_se3_p1'>Ad</p>
@@ -162,6 +181,7 @@ See who’s Viewed your profile in the last 90 days
 </div>
                             
                         </section>
+                        </div>
                     </div>
                 </div>
             </div>
