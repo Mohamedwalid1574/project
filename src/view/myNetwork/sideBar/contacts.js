@@ -16,12 +16,10 @@ export default function Contact() {
                         <div className="card" >
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">0 Imported Contacts</li>
-                                <img src="./image/contact.png" className="mx-4 mt-3" />
+                                <img alt='' src="./image/contact.png" className="mx-4 mt-3" />
                                 <li className="list-group-item" >
                                     <h5>Connect with people you know, fast </h5>
-                                    Importing contacts helps you keep in touch with your connections. <br /> <a
-
-                                        className="text-decoration-none text-primary "> <br /> Sync your contacts</a>
+                                    Importing contacts helps you keep in touch with your connections. <br /> <a href='/#' className="text-decoration-none text-primary "> <br /> Sync your contacts</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,7 +50,7 @@ export default function Contact() {
                     <div className="col-md-9"></div>
                     <div className="col-md-3 col-sm-12">
                         <div className="text-xl-center mt-3 " >
-                            <img src={photo} style={{borderRadius:"10px"}}/>
+                            <img alt='' src={photo} style={{borderRadius:"10px"}}/>
                             <span>
                                 <a href="https://about.linkedin.com/" className="link m-2  text-muted">About
                                 </a>
@@ -65,7 +63,7 @@ export default function Contact() {
                                 <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
                                     class="link m-2">Help Center</a>
                             </span>
-                            <span><a href="" className="link m-2">Privacy & Terms i</a></span>
+                            <span><a href="/#" className="link m-2">Privacy & Terms i</a></span>
                             <span>
                                 <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
                                     className="link m-2">Ad Choices</a>
@@ -77,7 +75,7 @@ export default function Contact() {
                                 </a>
                             </span>
                             <div className="text-center" >
-                                <img src="./image/foot.png" /><span style={{ fontSize: "10px" }}>Linkedin Corporation
+                                <img alt='' src="./image/foot.png" /><span style={{ fontSize: "10px" }}>Linkedin Corporation
                                     © 2022</span>
                             </div>
                         </div>

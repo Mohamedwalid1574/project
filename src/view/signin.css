@@ -1,0 +1,98 @@
+.NGR-a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a66c2;
+}
+.NGR-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 34px;
+}    
+.NGR-frm{
+    margin-left: 30%;
+    padding: 25px ;
+    border-radius: 20px;
+    padding-right: -10px;
+    width: 355px;
+}
+.NGR-logo{
+    height: 33.75px;
+    width: 135px;
+}
+.NGR-d-flex{
+    display: flex;
+}
+.NGR-footer{
+    padding-top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+.NGR-footer-texts{
+    padding-right: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00000099;
+    font-size: 12px;
+}
+.NGR-slct{
+    /* background-color: #FFF; */
+    color: #00000099;
+    font-weight:bold ;
+    font-size: 12px;
+    /* border: 0px; */
+    /* outline: none; */
+}
+.NGR-slct:focus{
+    outline: none;
+}
+.NGR-new-to-linkedin{
+margin-left: 40%;
+}
+.NGR-agree-btn-apple{
+    border: solid black 1px;
+    width: 304px;
+    height: 42px;
+    color: #00000099;
+    border-radius: 100px;
+    margin-top:10px;
+}
+.NGR-sign-in-btn:hover{
+    background-color: #004b7c;
+    font-weight: 700;
+    color: #FFF;
+}
+.NGR-sign-in-btn{
+    border-radius: 100px;
+    width: 304px;
+    border:none;
+    font-weight:bold ;
+    background-color: #0a66c2;
+    height: 52px;
+    color: #FFF;
+    margin-top: 15px;
+}
+.NGR-input2{
+    width: 304px;
+    border: solid black 1px;
+    background-color: #FFF;
+    height: 52px;
+    color: #00000099;
+    border-radius: 5px;
+}
+.NGR-password-input{
+    margin-top: 20px;
+}
+.NGR-hr2{
+    height: 1px;
+    width: 120px;
+    margin-top: 25px;
+}
+.NGR-mrgn-top-10px{
+    margin-top:10px;
+}
+.NGR-forgot-password{
+    margin-top: 10px;
+    display: block;   
+}
