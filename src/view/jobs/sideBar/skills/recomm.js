@@ -13,7 +13,7 @@ function SkillsRecommended()
                 
                     <div className='es_div3_job card'>
                         <h4>Skill assessments</h4>
-                        <p className='es_font4'>Check your skill level. Answer 15 multiple choice questions, score in the top 30%, and earn a skill badge. <a href='#' className='es_link'>Learn more</a></p>
+                        <p className='es_font4'>Check your skill level. Answer 15 multiple choice questions, score in the top 30%, and earn a skill badge. <a href='/#' className='es_link'>Learn more</a></p>
 <hr/>
 <div>
     <div className='btn  btn-outline-secondary ms-2 rounded-pill'><a href='/assessment' className='es_link3 '>All</a></div>
