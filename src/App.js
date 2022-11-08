@@ -37,6 +37,7 @@ import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
 
+
 import Notifications from './view/notification/Notifications';
 
 import SignIn from './view/signin';
@@ -47,7 +48,7 @@ function App() {
   return (
 
     <>
-
+<Job/>
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -74,8 +75,7 @@ function App() {
           <Route path='/not' element={<Notifications />} />
 
           <Route path='/pre' element={<Prepage />} />
-          <Route path='/job' element={<Job />} />
-          <Route path='/pre' element={<Prepage />} />
+        
           <Route path='/job' element={<Job />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/signin' element={<SignIn />} />
@@ -83,10 +83,7 @@ function App() {
         </Routes>
       </Router>
 
-      {/* <div className="bg1">
-        <HeaderAndMessage />
-        <Home />
-      </div> */}
+  
 
     </>
 
