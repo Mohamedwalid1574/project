@@ -79,11 +79,6 @@ function App() {
         </Routes>
       </Router>
 
-      <div className="bg1">
-        <HeaderAndMessage />
-        <Home />
-      </div>
-
     </>
 
   );

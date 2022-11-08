@@ -61,7 +61,7 @@ function JobSeekersecond() {
                     </div>
                 </div>
             </div>
-
+</div>
         </>
     )
 }
