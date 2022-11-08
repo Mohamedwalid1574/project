@@ -20,9 +20,8 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-import Home from './view/home/Home';
-import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
-
+import Home from './view/home/home';
+import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
 
 
 
@@ -37,7 +36,11 @@ import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
 
+
 import Creategroup from './view/myNetwork/sideBar/creategroup';
+
+import Notifications from './view/notification/Notifications';
+
 
 import SignIn from './view/signin';
 import SignUp from './view/signup';
@@ -69,16 +72,25 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
+
+        
+        <Route path='/not' element={<Notifications/>}/>
+
           <Route path='/pre' element={<Prepage />} />
           <Route path='/job' element={<Job />} />
           <Route path='/pre' element={<Prepage />} />
           <Route path='/job' element={<Job />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/signin' element={<SignIn />} />
+
         </Routes>
       </Router>
 
+
      
+
+      
+    
 
     </>
 

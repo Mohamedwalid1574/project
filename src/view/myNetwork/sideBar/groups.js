@@ -9,11 +9,7 @@ export default function Groups() {
 
 
 
-<<<<<<< HEAD
             {/* <section className="bg-white shadow" style={{ position: "relative ", position: "sticky", top: "6%", zIndex: '1' }}>
-=======
-            <section className="bg-white shadow" style={{ position: "relative ", position: "sticky", top: "6%", zIndex: '1' }}>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                 <div className="container " >
                     <div className="row py-3">
                         <div className="col-1">
@@ -22,11 +18,7 @@ export default function Groups() {
                                     ariaExpanded="false">
                                     groups
                                 </button>
-<<<<<<< HEAD
                                 <ul className="dropdown-menu">
-=======
-                                <ul class="dropdown-menu">
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                     <li><button className="dropdown-item " type="button">All</button></li>
                                     <li><button className="dropdown-item " type="button">People</button></li>
                                     <li><button className="dropdown-item " type="button">Jobs</button></li>
@@ -40,19 +32,11 @@ export default function Groups() {
                             </div>
                         </div>
                         <div className="col-2">
-<<<<<<< HEAD
                             <div className="btn rounded-pill border  ">all filters</div>
                         </div>
                     </div>
                 </div>
             </section> */}
-=======
-                            <div className="btn rounded-pill border">all filters</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
             <div className="container mt-4 ">
                 <p className="mb-0">About 2,290,000 results</p>
             </div>
@@ -60,15 +44,9 @@ export default function Groups() {
                 <div className="row ">
                     <div className="col-lg-9 col-md-7 col-12">
                         <div className="card">
-<<<<<<< HEAD
                             <a className="text-dark m-0">
                                 <div className="d-flex align-items-start pt-4 ps-3 " >
                                     <img src={pro} style={{ width: "100px", height: '100px' }} />
-=======
-                            <a className="text-dark m-0" href='/#'>
-                                <div className="d-flex align-items-start pt-4 ps-3 " >
-                                    <img alt='' src={pro} style={{ width: "100px", height: '100px' }} />
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                     <div className="ps-2">
                                         <h4>Software/Technology: Marketing, Social Media, Startups, Blockchain, Human Resources & Metaverse</h4>
                                         <p>2.7M members</p>
@@ -79,15 +57,9 @@ export default function Groups() {
                             </a>
 
 
-<<<<<<< HEAD
                             <a className="text-dark m-0">
                                 <div className="d-flex align-items-start pt-3 ps-3">
                                     <img src={pro} style={{ width: "100px", height: '100px' }} />
-=======
-                            <a className="text-dark m-0" href='/#'>
-                                <div className="d-flex align-items-start pt-3 ps-3">
-                                    <img alt='' src={pro} style={{ width: "100px", height: '100px' }} />
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                     <div className="ps-2">
                                         <h4>
                                             Social Media Marketing Group by Connect365.io</h4>
@@ -99,15 +71,9 @@ export default function Groups() {
                                     </div>
                                 </div>
                             </a>
-<<<<<<< HEAD
                             <a className="text-dark m-0">
                                 <div className="d-flex align-items-start pt-3 ps-3">
                                     <img src={pro} style={{ width: "100px", height: '100px' }} />
-=======
-                            <a className="text-dark m-0" href='/#'>
-                                <div className="d-flex align-items-start pt-3 ps-3">
-                                    <img src={pro} alt='' style={{ width: "100px", height: '100px' }} />
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                     <div className="ps-2">
                                         <h4>FINANCE Club</h4>
                                         <p>1.7M members</p>
@@ -116,15 +82,9 @@ export default function Groups() {
                                     </div>
                                 </div>
                             </a>
-<<<<<<< HEAD
                             <a className="text-dark m-0">
                                 <div className="d-flex align-items-start pt-3 ps-3">
                                     <img src={pro} style={{ width: "100px", height: '100px' }} />
-=======
-                            <a className="text-dark m-0" href='/#'>
-                                <div className="d-flex align-items-start pt-3 ps-3">
-                                    <img alt='' src={pro} style={{ width: "100px", height: '100px' }} />
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                     <div className="ps-2">
                                         <h4>markting communication</h4>
                                         <p>1.5M members</p>
@@ -146,13 +106,8 @@ export default function Groups() {
                                 </div>
 
                                 <div className="d-flex align-items-center ">
-<<<<<<< HEAD
                                     <div className="me-3 btn  border border-primary "><img src="./img walid/like.png" /></div>
                                     <div className=" btn  border border-primary "><img src="./img walid/dislike.png" /></div>
-=======
-                                    <div className="me-3 btn  border border-primary "><img alt='' src="./img walid/like.png" /></div>
-                                    <div className=" btn  border border-primary "><img alt='' src="./img walid/dislike.png" /></div>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                 </div>
 
                             </div>
@@ -176,11 +131,7 @@ export default function Groups() {
                     </div>
                     <div className="col-lg-3 col-md-5 col-12">
                         <div className="card " >
-<<<<<<< HEAD
                             <img src={photo} className="mx-2" />
-=======
-                            <img src={photo} alt='' className="mx-2" />
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
 
                         </div>
                     </div>

@@ -18,7 +18,6 @@ export default function Events() {
                                     <a href='/#' className="text-decoration-none text-primary" >Create </a>
                                 </div>
                                 <hr />
-<<<<<<< HEAD
                                 <div className='centeroflinked'>
                                     <img src={empty} />
                                 </div>
@@ -26,25 +25,14 @@ export default function Events() {
                                     <h6 className="form-control-lg mb-0"> No events</h6>
                                     Looks like you are not attending any events.
                                 </div>
-=======
-                                <img alt='' src={empty} className='h-25' />
-                                <div className="card-text mt-3 mb-5 text-xl-center" > <h6 className="form-control-lg mb-0"> No events</h6>
-                                    Looks like you are not attending any events.</div>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 col-sm-12">
-<<<<<<< HEAD
                         <div className="text-xl-center  " >
                             <div className='px-2 card'>  <img src={photo} /></div>
                             <div className='p-2 mx-auto'>
-=======
-                        <div className='center'>
-                            <img alt='' src={photo} />
-                            <div className="text-xl-center mt-3" >
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                 <span>
                                     <a href="https://about.linkedin.com/" className="link m-2  text-muted">About
                                     </a>
@@ -57,11 +45,7 @@ export default function Events() {
                                     <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
                                         class="link m-2">Help Center</a>
                                 </span>
-<<<<<<< HEAD
                                 <span><a href="" className="link m-2">Privacy & Terms </a></span>
-=======
-                                <span><a href="/#" className="link m-2">Privacy & Terms i</a></span>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                 <span>
                                     <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
                                         className="link m-2">Ad Choices</a>
@@ -72,7 +56,6 @@ export default function Events() {
 
                                     </a>
                                 </span>
-<<<<<<< HEAD
                                 <span>
                                     <a href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
                                         className="link m-2">Business Services
@@ -100,11 +83,6 @@ export default function Events() {
                                         </svg>
                                     </div>
                                     <small >Linkedin Corporation©2022</small>
-=======
-                                <div className="text-center">
-                                    <img alt='' src="./image/foot.png" /><span >Linkedin Corporation
-                                        © 2022</span>
->>>>>>> e77d764a373347dcba4a460ae5b6a325415b8f13
                                 </div>
                             </div>
                         </div>
