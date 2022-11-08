@@ -20,7 +20,7 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-import Home from './view/home/Home';
+import Home from './view/home/home';
 import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
@@ -36,19 +36,17 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
-
-
+import Login from './view/signin';
+import Signup from './view/signup';
+import Interview from './view/jobs/sideBar/interviewPrep';
+import Alartjobs from './view/jobs/sideBar/jobAlerts';
+import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 import Notifications from './view/notification/Notifications';
-
-import SignIn from './view/signin';
-import SignUp from './view/signup';
-
-
 function App() {
   return (
 
     <>
-<Job/>
+
       <Router>
         <Routes>
           <Route path="/mynetwork" element={<Mynetwork />} />
@@ -60,6 +58,7 @@ function App() {
           <Route path="/pages" element={<Pages />} />
           <Route path="/peopleIFollow" element={<Peopleifollow />} />
           <Route path="/pageofgroup" element={<Pageofgroup />} />
+          <Route path="/interview" element={<Interview />} />
           <Route path="/profile" element={<Profile />} />
           <Route path='/recommended' element={<SkillsRecommended />} />
           <Route path='/assessment' element={<Skills />} />
@@ -70,20 +69,15 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
-
-
-          <Route path='/not' element={<Notifications />} />
-
-          <Route path='/pre' element={<Prepage />} />
-        
-          <Route path='/job' element={<Job />} />
-          <Route path='/signup' element={<SignUp />} />
-          <Route path='/signin' element={<SignIn />} />
-
+          <Route path='/pre' element={<Prepage/>} />
+        <Route path='/job' element={<Job/>} />
+        <Route path='/signup' element={<Signup/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/alertjob' element={<Alartjobs/>} />
+        <Route path='/builder' element={<ResumeBuilder/>} />
+        <Route path='/not' element={<Notifications />} />
         </Routes>
       </Router>
-
-  
 
     </>
 

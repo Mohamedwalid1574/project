@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import "./es_jobs.css"
@@ -31,7 +29,7 @@ Resumes you build on LinkedIn will appear here.
     </div>
         <div className="modal-footer d-flex justify-content-end">
             <div className="es_button1">
-            <a href='#' className='es_link'>
+            <a href='/profile' className='es_link'>
             <span className="es_font1">Create from profile</span></a>
             </div>
         <form>

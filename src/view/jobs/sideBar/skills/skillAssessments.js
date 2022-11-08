@@ -1,11 +1,7 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import "../es_jobs.css";
-import YoutubeEmbed from '../video';
 function Skills()
 {
     return(
@@ -15,10 +11,10 @@ function Skills()
                 
                     <div className='es_div3_job card'>
                         <h4>Skill assessments</h4>
-                        <p className='es_font4'>Check your skill level. Answer 15 multiple choice questions, score in the top 30%, and earn a skill badge. <a href='/#' className='es_link'>Learn more</a></p>
-<hr/>
+                        <p className='es_font4'>Check your skill level. Answer 15 multiple choice questions, score in the top 30%, and earn a skill badge. <a href='#' className='es_link'>Learn more</a></p>
+                        <div className='es_hr mt-4 mb-4'></div>
 <div>
-    <div className='btn btn-success ms-2 rounded-pill'><a href='/assessment' className='es_link2'>All</a></div>
+    <div className='btn btn-success ms-2 rounded-pill'><a href='/assessment' className='es_link2 '>All</a></div>
     <div className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/recommended' className='es_link3 '>Recommended</a></div>
     <div className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/industry' className='es_link3'>Industry Knowlodge</a></div>
     <div className='btn btn-outline-secondary ms-2 rounded-pill'><a href='/tools' className='es_link3'>Tools & Technology</a></div>
