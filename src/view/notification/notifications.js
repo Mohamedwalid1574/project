@@ -21,7 +21,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // eslint-disable-next-line no-unused-vars
 import Card from 'react-bootstrap/Card';
-// eslint-disable-next-line no-unused-vars
+
 import ListGroup from 'react-bootstrap/ListGroup';
 import { v4 } from "uuid";
 
