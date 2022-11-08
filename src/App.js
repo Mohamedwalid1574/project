@@ -39,12 +39,17 @@ import Prepage from './view/premium/Prepage';
 
 import Creategroup from './view/myNetwork/sideBar/creategroup';
 
-import Notifications from './view/notification/Notifications';
 
 
-import SignIn from './view/signin';
-import SignUp from './view/signup';
 
+import Login from './view/signin';
+import Signup from './view/signup';
+
+
+import Interview from './view/jobs/sideBar/interviewPrep';
+import Alartjobs from './view/jobs/sideBar/jobAlerts';
+import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
+import Notifications from './view/notification/notifications';
 function App() {
   return (
 
@@ -62,6 +67,7 @@ function App() {
           <Route path="/pages" element={<Pages />} />
           <Route path="/peopleIFollow" element={<Peopleifollow />} />
           <Route path="/pageofgroup" element={<Pageofgroup />} />
+          <Route path="/interview" element={<Interview />} />
           <Route path="/profile" element={<Profile />} />
           <Route path='/recommended' element={<SkillsRecommended />} />
           <Route path='/assessment' element={<Skills />} />
@@ -72,25 +78,15 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
-
-        
-        <Route path='/not' element={<Notifications/>}/>
-
-          <Route path='/pre' element={<Prepage />} />
-          <Route path='/job' element={<Job />} />
-          <Route path='/pre' element={<Prepage />} />
-          <Route path='/job' element={<Job />} />
-          <Route path='/signup' element={<SignUp />} />
-          <Route path='/signin' element={<SignIn />} />
-
+          <Route path='/pre' element={<Prepage/>} />
+        <Route path='/job' element={<Job/>} />
+        <Route path='/signup' element={<Signup/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/alertjob' element={<Alartjobs/>} />
+        <Route path='/builder' element={<ResumeBuilder/>} />
+        <Route path='/not' element={<Notifications />} />
         </Routes>
       </Router>
-
-
-     
-
-      
-    
 
     </>
 

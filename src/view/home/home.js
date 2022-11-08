@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import Feed from './Feed';
 import './home.css';
 import SideBar_2nd from './SideBar2nd';

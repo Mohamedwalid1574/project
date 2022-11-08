@@ -155,6 +155,7 @@
   .es_font4{
     font-size: 14px;
     margin-bottom: 0;
+    color: black;
   }
   .es_card{
     padding: 20px 20px 0 20px;
@@ -438,4 +439,30 @@ margin-right: 10px;
   color: gray;
   text-decoration: none;
   
+}
+.es_color_black{
+  color: black;
+}
+.es_check_style{
+  border: 1px solid black;
+  height: 20px;
+  opacity: 0.7;
+}
+.es_check_style:checked{
+  height: 20px;
+  opacity: 1;
+}
+.es_btn_height{
+  height: 40px;
+  width: 170px;
+  border-radius: 0;
+}
+.es_hr{
+  border-bottom: 1px solid lightgray;
+  opacity: 0.8;
+}
+.es_btn_unlock{
+  height: 35px;
+  border: 1px solid lightgray;
+
 }

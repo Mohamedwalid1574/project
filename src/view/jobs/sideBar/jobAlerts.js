@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import "./es_jobs.css"
@@ -21,7 +19,7 @@ function Alartjobs() {
       <div className="modal-body">
         <div className='es_div'>
             <div className=' es_div2'>
-      <img className='es_img1' src={"https://static.vecteezy.com/system/resources/previews/002/828/322/non_2x/two-friends-on-video-meeting-video-call-concept-flat-illustration-vector.jpg"}/>
+      <img alt='' className='es_img1' src={"https://static.vecteezy.com/system/resources/previews/002/828/322/non_2x/two-friends-on-video-meeting-video-call-concept-flat-illustration-vector.jpg"}/>
         <h5 className='es_font'>You have no job alerts yet</h5>
         <p className='es_font'>
         Flip the switch on a job search page to create a new alert.

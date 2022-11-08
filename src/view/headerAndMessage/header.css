@@ -76,7 +76,7 @@ body {
 
 /* NOT WORKING :( */
 
-.clickedd-style {
+/* .clickedd-style {
 
     /* border-bottom: 2px solid black; */
     /* padding-bottom: 10%; */
@@ -84,7 +84,7 @@ body {
 
     /* text-decoration: underline;
     color: red; */
-}
+/* }  */
 
 .nada_Me-droppp {
     width: 290px;
@@ -118,26 +118,34 @@ i :hover {
 .nada_height-of-navbar {
     height: 55px;
 }
-.nada_align{
+
+.nada_align {
     align-self: center;
     align-items: center;
     text-align: center;
 }
-.nada_add{
+
+.nada_add {
     align-self: center;
     align-items: center;
     position: relative;
     top: 5px;
     right: -50px;
-    font-size:medium;
+    font-size: medium;
     font-weight: bold;
 }
-.material-symbols-outlined:hover{
+
+.material-symbols-outlined:hover {
     cursor: pointer;
     /* color: blue; */
     font-weight: bolder;
 }
-.nada_exsmall{
+
+.nada_exsmall {
     font-size: 13px;
     padding-left: 1rem;
 }
+
+/* message stars -------------------------- */
+
+/* message ends -------------------------- */
