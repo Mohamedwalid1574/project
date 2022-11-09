@@ -21,8 +21,7 @@ import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
 import Home from './view/home/home';
-import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
-
+import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
 
 
 
@@ -36,8 +35,17 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
+
+
+import Creategroup from './view/myNetwork/sideBar/creategroup';
+
+
+
+
 import Login from './view/signin';
 import Signup from './view/signup';
+
+
 import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
@@ -54,6 +62,7 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/groups" element={<Groups />} />
+          <Route path="/creategroup" element={<Creategroup />} />
           <Route path="/hashtages" element={<Hashtages />} />
           <Route path="/pages" element={<Pages />} />
           <Route path="/peopleIFollow" element={<Peopleifollow />} />
@@ -78,11 +87,6 @@ function App() {
         <Route path='/not' element={<Notifications />} />
         </Routes>
       </Router>
-
-      <div className="bg1">
-        <HeaderAndMessage />
-        <Home />
-      </div>
 
     </>
 

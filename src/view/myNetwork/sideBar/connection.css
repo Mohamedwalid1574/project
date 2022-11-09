@@ -16,17 +16,9 @@
    
   }
 
-  .a{
-    position: relative;
-   text-decoration: none;
-  margin-left:670px ; 
-   top: -40px;
-   color: gray;
-  
-}
-.a:hover {
-  background-color:   rgb(223 ,223,223);
-  width: 60px;
-  border-radius: 3px;   color: gray;
-}
-
+ .centeroflinked{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }

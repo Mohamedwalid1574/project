@@ -1,5 +1,10 @@
 import './profile.css';
+import { Link } from "react-router-dom";
 
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
 
 
 import cover from './image/images.png';
@@ -9,13 +14,17 @@ import friendphoto from './image/One_Piece-9f62b3e6-bd9c-423b-b154-09b15a724f62.
 
 
 export default function Profile() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
             <div className='body '>
                 <div className='profile '>
                     <div className='container mx-auto '>
                         <div className="row">
-                            <section className="col-12 col-md-7 col-lg-8 mt-3">
+                            <div className=" col-md-7 col-lg-8 mt-3">
                                 <div className="card pb-4">
                                     <div className='bg-white rounded-circle p-2 ' style={{ fontSize: '2%', position: 'relative', position: 'absolute', top: '3%', right: '3%' }}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width='20' height='20' viewBox="0 0 512 512"><path d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 384c-53 0-96-43-96-96s43-96 96-96s96 43 96 96s-43 96-96 96z" />
@@ -52,15 +61,59 @@ export default function Profile() {
                                         </svg>
                                         <p className="opacity-50 m-0 ms-2">Provide to you</p>
                                     </div>
-                                    <div className="border p-3">
-                                        <div className="d-flex align-items-center " >
-
-                                            <p className="my-0">Stand out in recruiter searches</p>
-                                        </div>
-                                        <p>Candidates who earn a skill badge are 20% more likely to get hired.</p>
-                                        <div className="btn rounded-pill border border-2 mt-0">Take a skill quiz</div>
-                                    </div>
                                 </div>
+
+
+                                <div className="card mt-2 ">
+                                    <div className="px-4 pt-4">
+                                        <div className='d-flex justify-content-between'>
+                                            <div>
+                                                <h4 className="m-0">activite</h4>
+                                                <p className="opacity-50">1 followers</p>
+                                            </div>
+                                            <div>
+                                                <Button className=' rounded-5  py-1 px-3' onClick={handleShow}>Start a post</Button>
+                                                <Modal show={show} onHide={handleClose}>
+                                                    <Modal.Header closeButton>
+                                                        <Modal.Title>Modal heading</Modal.Title>
+                                                    </Modal.Header>
+                                                    <Modal.Body>
+                                                        <Form>
+                                                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                                                <Form.Label>Email address</Form.Label>
+                                                                <Form.Control
+                                                                    type="email"
+                                                                    placeholder="name@example.com"
+                                                                    autoFocus
+                                                                />
+                                                            </Form.Group>
+                                                            <Form.Group
+                                                                className="mb-3"
+                                                                controlId="exampleForm.ControlTextarea1"
+                                                            >
+                                                                <Form.Label>Example textarea</Form.Label>
+                                                                <Form.Control as="textarea" rows={3} />
+                                                            </Form.Group>
+                                                        </Form>
+                                                    </Modal.Body>
+                                                    <Modal.Footer>
+                                                        <Button variant="secondary" onClick={handleClose}>
+                                                            Close
+                                                        </Button>
+                                                        <Button variant="primary" onClick={handleClose}>
+                                                            Save Changes
+                                                        </Button>
+                                                    </Modal.Footer>
+                                                </Modal>
+                                            </div>
+                                        </div>
+                                        <p className="m-0">You haven't posted lately</p>
+                                        <p className="mt-0">Recent posts you share or comment on will be displayed hereRecent</p>
+                                    </div>
+                                    <hr className="hrfull" />
+                                    <p className="text-center py-2 mb-0 ">show all activites</p>
+                                </div>
+
                                 <div class="card mt-2 p-4">
                                     <div>
                                         <h4 className="m-0">analytics</h4>
@@ -115,23 +168,7 @@ export default function Profile() {
                                     <hr className="hrfull" />
                                     <p className="text-center py-2 mb-0 ">show all 5 resourses</p>
                                 </div>
-                                <div className="card mt-2 ">
-                                    <div className="px-4 pt-4">
-                                        <div className='d-flex justify-content-between'>
-                                            <div>
-                                                <h4 className="m-0">activite</h4>
-                                                <p className="opacity-50">1 followers</p>
-                                            </div>
-                                            <div>
-                                                <button className='btn rounded-pill border border-primary border-2 ms-2 text-primary'>start a post</button>
-                                            </div>
-                                        </div>
-                                        <p className="m-0">You haven't posted lately</p>
-                                        <p className="mt-0">Recent posts you share or comment on will be displayed hereRecent</p>
-                                    </div>
-                                    <hr className="hrfull" />
-                                    <p className="text-center py-2 mb-0 ">show all activites</p>
-                                </div>
+
                                 <div className="card mt-2 p-4">
                                     <div className='d-flex justify-content-between align-items-center'>
                                         <h4 className="mb-3">Education</h4>
@@ -184,10 +221,13 @@ export default function Profile() {
 
                                         </div>
                                     </div>
-                                    <hr className="hrfull" />
-                                    <p className="text-center  py-2 mb-0">show all 13 compines</p>
+
                                 </div>
-                            </section>
+                            </div>
+
+
+
+
                             <aside className="col-4 col-md-5 col-lg-4 mt-3">
                                 <div className="card p-3">
                                     <div className="d-flex align-items-center justify-content-between">
@@ -265,6 +305,8 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
+
+
         </>
     )
 }

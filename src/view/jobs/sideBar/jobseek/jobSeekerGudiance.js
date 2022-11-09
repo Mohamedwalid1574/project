@@ -61,7 +61,7 @@ function JobSeekerfirst() {
                     </div>
                 </div>
             </div>
-
+</div>
         </>
     )
 }

@@ -61,7 +61,7 @@ function JobSeekerThird() {
                     </div>
                 </div>
             </div>
-
+</div>
         </>
     )
 }
