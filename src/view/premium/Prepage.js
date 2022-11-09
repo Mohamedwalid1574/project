@@ -5,10 +5,15 @@ import React from "react";
 import './Prepage.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+
+
 function Prepage() {
 
     return (
         <>
+
+
+        <div className="maro_pre">
             <div className="maro_section1">
                 <img alt="" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-icon.png" className="maro_img1" />
                 <a href="#" className="maro_link1"> Bake to linkedIn.com</a>
@@ -129,7 +134,7 @@ function Prepage() {
 
                 </div>
             </section>
-
+            </div>
         </>
     )
 }

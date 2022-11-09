@@ -21,7 +21,7 @@ import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
 import Home from './view/home/home';
-import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
+import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
 
@@ -50,13 +50,18 @@ import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 import Notifications from './view/notification/notifications';
+import AppSetting from './view/jobs/sideBar/applicationSetting';
 function App() {
   return (
 
     <>
 
+
+      
       <Router>
         <Routes>
+        <Route path='/' element={<Login/>} />
+        
           <Route path="/mynetwork" element={<Mynetwork />} />
           <Route path="/connection" element={<Connection />} />
           <Route path="/contacts" element={<Contact />} />
@@ -81,7 +86,7 @@ function App() {
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
         <Route path='/signup' element={<Signup/>} />
-        <Route path='/login' element={<Login/>} />
+        <Route path='/appliaction' element={<AppSetting/>} />
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />

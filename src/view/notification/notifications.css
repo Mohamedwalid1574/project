@@ -47,7 +47,7 @@
 .xmaro_se3_p2{
     color: gray;
     font-size: 14px;
-    align-items: center;
+    text-align: center;
 
 }
 .xmaro_se3_pt2{ 
@@ -73,7 +73,7 @@
 }
 .xmaro_se3_p3{
     font-size: 16px;
-    align-items: center;
+    text-align: center;
 }
 .xmaro_se3_pt5{
     display: flex;
