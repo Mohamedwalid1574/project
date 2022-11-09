@@ -90,7 +90,7 @@ function App() {
 
       <div className="bg1">
         <HeaderAndMessage />
-        {/* <Home /> */}
+        <Home />
       </div>
 
 

@@ -137,7 +137,7 @@ i :hover {
 
 .material-symbols-outlined:hover {
     cursor: pointer;
-    /* color: blue; */
+    color: blue;
     font-weight: bolder;
 }
 
@@ -155,6 +155,7 @@ i :hover {
     /* top: 35rem; */
     top: 43.5rem;
     height: 20rem;
+    z-index: 10000;
 }
 
 .expanded {
@@ -187,7 +188,7 @@ i :hover {
     font-size: 14px;
     padding-left: 15px;
     padding-right: 25px;
-    outline: beige;
+    outline: rgb(245, 245, 220);
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 4px;
