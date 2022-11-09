@@ -34,14 +34,14 @@ const Login = () => {
   <div className="row col-md-10 offset-md-1">
       <div className="NGR-header"><img className='NGR-logo' src={LI}/></div>
   <div className="NGR-frm box-shadow shadow  mb-5 bg-body rounded ">
-  <form >
+  <form>
     <h1>Sign in</h1>
     <p>Stay updated on your professional world</p>
     
-    <input placeholder=" &nbsp;Email or Phone"  type="email"  onChange={(e)=>{setEmail(e.target.value)}}></input><br></br>
-    <input id="pass" placeholder=" &nbsp;Password"   className="NGR-password-input" type="password"  onChange={(e)=>{setPassword(e.target.value)}}></input><br></br>
+    <input placeholder=" &nbsp;Email or Phone"  type="email" className="NGR-input2"  onChange={(e)=>{setEmail(e.target.value)}}></input><br></br>
+    <input id="pass" placeholder=" &nbsp;Password"   className="NGR-password-input NGR-input2" type="password"  onChange={(e)=>{setPassword(e.target.value)}}></input><br></br>
     
-        <a className="NGR-forgot-password">Forgot password?</a>
+        <a className="NGR-forgot-password NGR-a">Forgot password?</a>
     
     <button className="NGR-sign-in-btn btn" type="submit" onClick={onLogin}>Sign in</button><br></br>
     <div className='d-flex'><hr></hr>    <span className="mrgn-top-10px">&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr></hr></div>

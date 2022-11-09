@@ -8,8 +8,7 @@ import user from './mypic.png';
 import EmojiPicker from 'emoji-picker-react';
 import { useState } from "react";
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import AvatarGroup from '@mui/material/AvatarGroup';
+
 
 const Post = () => {
 
