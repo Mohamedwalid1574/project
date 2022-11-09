@@ -31,6 +31,7 @@ const Signup = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           console.log(errorCode, errorMessage);
+          alert("Password should be at least 6 characters (weak-password).")
           // ..
       });
 
@@ -55,7 +56,7 @@ const Signup = () => {
     </p>
     <button className="NGR-agree-btn " id="signup" type="submit" onClick={onSubmit}>Agree & Join</button><br></br>
     <div className='d-flex'>
-      <hr></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>  <hr></hr>
+      <hr className="NGR-hr"></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>  <hr className="NGR-hr"></hr>
        </div>
     <button className="NGR-agree-btn-google" type="submit">Continue with Google<img className="NGR-g-logo" src={G_logo} /></button>
     <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights" href="/signin">Sign in</a></p>
