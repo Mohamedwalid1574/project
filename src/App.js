@@ -85,6 +85,7 @@ function App() {
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />
+        <Route path='/home' element={<Home />} />
         </Routes>
       </Router>
 
