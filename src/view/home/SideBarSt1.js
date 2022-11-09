@@ -3,12 +3,12 @@
 import './sidebar_2nd.css';
 import './sidebar1.css'
 import cover from './header.jfif';
-import user from './mypic.png';
+// import user from './mypic.png';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-
+const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
 //we will use the react bootstrab modal components 
 //       ... the remainnings : 
 //1. what are u thinking of nada 'post or write an article' 

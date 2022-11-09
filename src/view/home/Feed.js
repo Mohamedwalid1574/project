@@ -1,27 +1,54 @@
 /* eslint-disable no-unused-vars */
 import Icons from "./Icons";
 import Post from "./Post";
+import './home.css';
 /* eslint-disable no-unused-vars */
 const Feed = () => {
 
     const pfp = 'https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=x3GrszcrA23SWg&pid=ImgRaw&r=0'
+    const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
+
     return (
         <>
             <div className="nada_bg1" >
 
+                <div className='card this_fuckn_post_bar'>
 
-                {
-                /* <div style={{boxShadow:'none', marginTop: '1%', marginBottom: '2%', width:'75%' }} className="card">
-                    <div className="card-body">
+                    <div className=" d-flex">
+                        <img src={user} className="nada_post_o" alt="" />
+                        <input className="inputt" type="text" placeholder="Start post" />
+                    </div>
 
-                        <div className="btn-bar d-flex">
-                            <span style={{ width: '25px' }} className="material-symbols-outlined"> account_circle </span>
-                            <input className="inputt" type="text" placeholder="Start post" />
+                    {/* THE 4 ICONS --> PHOTOS VIDEO EVENT ARTICLE */}
+                    <div className="ahh_shit">
+
+                        <div className="btn-bar">
+                            <span style={{ color: '#378fe9' }} className="material-symbols-outlined"> photo_library </span>
+                            <p>Photo</p>
                         </div>
-                        <Icons/>
-                        <div>
+
+                        <div className="btn-bar">
+                            <span style={{ color: '#5f9b41' }} className="material-symbols-outlined"> videocam </span>
+                            <p>Video</p>
+                        </div>
+
+                        <div className="btn-bar">
+                            <span style={{ color: '#c88728' }} className="material-symbols-outlined"> calendar_month </span>
+                            <p>Event</p>
+                        </div>
+
+                        <div className="btn-bar">
+                            <span style={{ color: '#e16745' }} className="material-symbols-outlined"> feed </span>
+                            <p>Article</p>
+                        </div>
+
+                    </div>
+
+
+                    {/* ----------------------------------------------- */}
+
                 </div>
-                */}
+
 
                 <div className="" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <hr className="col-5" style={{ paddingLeft: '15px' }} />
