@@ -149,13 +149,26 @@ i :hover {
 /* message stars -------------------------- */
 .nada_sticky_message {
     max-width: 22rem;
-    position: absolute;
+    /* position: absolute; */
     right: 1rem;
     position: fixed;
     /* top: 35rem; */
     top: 43.5rem;
     height: 20rem;
-    z-index: 10000;
+    z-index: 100;
+}
+
+.nadaChat {
+    max-width: 22rem;
+    /* position: absolute; */
+    position: fixed;
+
+
+    right: 25rem;
+    position: fixed;
+    top: 24.5rem;
+    height: 30rem;
+    z-index: 100;
 }
 
 .expanded {
@@ -207,4 +220,66 @@ i :hover {
     margin-bottom: -15px;
 }
 
+
+.nada_chat_sender {
+    font-size: smaller;
+    margin-left: 1rem;
+    background-color: #d3d3d333;
+    padding: 1rem;
+    border-radius: 1px 10px 5px 10px;
+}
+
+.nada_btn_1 {
+    background: #fff;
+    color: #0073b1;
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid #0073b1;
+    border-radius: 15px;
+    height: 26px;
+    width: 80px;
+    padding: 0 6px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+    width: 12rem;
+    height: 2rem;
+    font-size: inherit;
+}
+
+.nada_btn_1:hover {
+    border: 2px solid #0073b1;
+    background-color: #e4f4fc;
+}
+
+.nada_chat_me {
+    font-size: smaller;
+    margin-right: 1rem;
+    background-color: #d3d3d333;
+    padding: 1rem;
+    border-radius: 1px 10px 5px 10px;
+    margin-top: 1rem;
+}
+
 /* message ends -------------------------- */
+
+
+.nada_like_rebly {
+    justify-content: space-between;
+    width: 20%;
+    position: relative;
+    top: -1rem;
+    right: -6rem;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.nada_a_load_more_comments {
+    position: relative;
+    top: 1rem;
+    right: -1rem;
+}
