@@ -90,10 +90,15 @@ function App() {
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />
-        <Route path='/home' element={<Home/>} />
-        {/* <Route path='/head'  element={<HeaderAndMessage/>}/>   */}
+        <Route path='/home' element={<Home />} />
         </Routes>
       </Router>
+
+      <div className="bg1">
+        <HeaderAndMessage />
+        <Home />
+      </div>
+
 
     </>
 

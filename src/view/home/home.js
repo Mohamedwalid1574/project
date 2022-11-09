@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
         <>
-            <div className='d-flex mt-5' style={{display:'flex'}}>
+            <div className='d-flex mt-5' style={{display:'flex', flexWrap:'wrap'}}>
                 <div className='nada_sideBar nada_st1'>
                     <SideBarSt1/>
                 </div>

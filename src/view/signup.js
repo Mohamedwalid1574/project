@@ -31,6 +31,7 @@ const Signup = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           console.log(errorCode, errorMessage);
+          alert("Password should be at least 6 characters (weak-password).")
           // ..
       });
 
@@ -43,18 +44,20 @@ const Signup = () => {
   <div className="NGR-header"><img className='NGR-logo' src={LI}/></div>
   <h1>Make the most of your professional life</h1>
   <form className="NGR-frm  offset-md-4">
-    <label>Email</label><br></br>
-    <input id="email" type="email" onChange={(e)=>{setEmail(e.target.value)}}></input><br></br>
-    <label>Password (6 or more characters)</label><br></br>
-    <input id="password" type="password"  onChange={(e)=>{setPassword(e.target.value)}}></input><br></br>
+    <label className="NGR-label">Email</label><br></br>
+    <input id="email" type="email" className="NGR-input" onChange={(e)=>{setEmail(e.target.value)}}></input><br></br>
+    <label className="NGR-label">Password (6 or more characters)</label><br></br>
+    <input id="password" type="password" className="NGR-input"  onChange={(e)=>{setPassword(e.target.value)}}></input><br></br>
     <p className="NGR-user-copyright">
         By clicking Agree & Join, you agree to the LinkedIn 
-        <a className="NGR-user-copyrights">User Agreement</a>,
+        <a className="NGR-user-copyrights ">User Agreement</a>,
         <a className="NGR-user-copyrights">Privacy Policy</a>, and 
         <a className="NGR-user-copyrights">Cookie Policy</a>.
     </p>
     <button className="NGR-agree-btn " id="signup" type="submit" onClick={onSubmit}>Agree & Join</button><br></br>
-    <div className='d-flex'><hr></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>   <hr></hr></div>
+    <div className='d-flex'>
+      <hr className="NGR-hr"></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>  <hr className="NGR-hr"></hr>
+       </div>
     <button className="NGR-agree-btn-google" type="submit">Continue with Google<img className="NGR-g-logo" src={G_logo} /></button>
     <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights" href="/signin">Sign in</a></p>
   </form>

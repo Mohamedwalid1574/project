@@ -79,10 +79,10 @@ body {
 /* .clickedd-style {
 
     /* border-bottom: 2px solid black; */
-    /* padding-bottom: 10%; */
+/* padding-bottom: 10%; */
 
 
-    /* text-decoration: underline;
+/* text-decoration: underline;
     color: red; */
 /* }  */
 
@@ -137,7 +137,7 @@ i :hover {
 
 .material-symbols-outlined:hover {
     cursor: pointer;
-    /* color: blue; */
+    color: blue;
     font-weight: bolder;
 }
 
@@ -147,5 +147,139 @@ i :hover {
 }
 
 /* message stars -------------------------- */
+.nada_sticky_message {
+    max-width: 22rem;
+    /* position: absolute; */
+    right: 1rem;
+    position: fixed;
+    /* top: 35rem; */
+    top: 43.5rem;
+    height: 20rem;
+    z-index: 100;
+}
+
+.nadaChat {
+    max-width: 22rem;
+    /* position: absolute; */
+    position: fixed;
+
+
+    right: 25rem;
+    position: fixed;
+    top: 24.5rem;
+    height: 30rem;
+    z-index: 100;
+}
+
+.expanded {
+    /* top: 35rem; */
+    background-color: aqua;
+}
+
+.not_expanded {
+    /* top: 43.5rem; */
+    background-color: red;
+
+}
+
+.msg :hover {
+    color: blue;
+}
+
+.nada_div_search_msg {
+    display: flex;
+    background-color: #eef1f8;
+    padding: 10px 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: -5px;
+    margin-bottom: 1rem;
+}
+
+.nada_div_search_msg input {
+    border: beige;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 25px;
+    outline: rgb(245, 245, 220);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.nada_list_fitting {
+    border-radius: 0px;
+    width: 111%;
+    border: #0ff0;
+    margin-left: -1rem;
+}
+
+.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-alignItemsFlexStart.css-hhvo2v-MuiListItem-root {
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+
+.nada_chat_sender {
+    font-size: smaller;
+    margin-left: 1rem;
+    background-color: #d3d3d333;
+    padding: 1rem;
+    border-radius: 1px 10px 5px 10px;
+}
+
+.nada_btn_1 {
+    background: #fff;
+    color: #0073b1;
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid #0073b1;
+    border-radius: 15px;
+    height: 26px;
+    width: 80px;
+    padding: 0 6px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+    width: 12rem;
+    height: 2rem;
+    font-size: inherit;
+}
+
+.nada_btn_1:hover {
+    border: 2px solid #0073b1;
+    background-color: #e4f4fc;
+}
+
+.nada_chat_me {
+    font-size: smaller;
+    margin-right: 1rem;
+    background-color: #d3d3d333;
+    padding: 1rem;
+    border-radius: 1px 10px 5px 10px;
+    margin-top: 1rem;
+}
 
 /* message ends -------------------------- */
+
+
+.nada_like_rebly {
+    justify-content: space-between;
+    width: 20%;
+    position: relative;
+    top: -1rem;
+    right: -6rem;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.nada_a_load_more_comments {
+    position: relative;
+    top: 1rem;
+    right: -1rem;
+}
