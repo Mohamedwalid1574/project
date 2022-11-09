@@ -27,7 +27,7 @@ const Avatarme = ({ noBorder, radius }) => {
                 }
 
                 <div className='ava_3'>
-                    <strong>MongoDB</strong>
+                    <strong style={{cursor:'pointer'}}>Sara Smith</strong>
                     <small>Company - Computer Software</small>
                 </div>
                 {

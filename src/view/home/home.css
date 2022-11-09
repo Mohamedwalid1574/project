@@ -126,6 +126,7 @@ body {
     width: 505px;
     margin-top: -1rem;
     border-radius: 15px;
+    margin-left: -5px;
 }
 
 /* .material-symbols-rounded {} */

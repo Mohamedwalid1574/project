@@ -2,11 +2,13 @@
 import Icons from "./Icons";
 import Post from "./Post";
 import './home.css';
+import user from './girl.png';
+
 /* eslint-disable no-unused-vars */
 const Feed = () => {
 
     const pfp = 'https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=x3GrszcrA23SWg&pid=ImgRaw&r=0'
-    const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
+    //const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
 
     return (
         <>

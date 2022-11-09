@@ -41,7 +41,7 @@ const HeaderAndMessage = () => {
     const [message, setMessage] = useState(true);
     const [expanded, not_expanded] = ['22rem', '43.5rem']
     // const [chat, setChatActive] = useState(false)
-    const [dispChat, setDispChat] = useState(false)
+    const [dispChat, setDispChat] = useState(true)
     const msgActive = () => {
         setDispChat(!dispChat)
     }

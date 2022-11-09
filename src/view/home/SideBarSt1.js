@@ -7,8 +7,9 @@ import cover from './header.jfif';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import user from './girl.png';
 
-const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
+//const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
 //we will use the react bootstrab modal components 
 //       ... the remainnings : 
 //1. what are u thinking of nada 'post or write an article' 
@@ -42,7 +43,7 @@ const SideBarSt1 = () => {
 
                     <div className='ms-4'>
                         <img className="nada_circle" style={{ width: '70px' }} src={user} alt="" />
-                        <p className="nada_name"> Nada Khalid </p>
+                        <p className="nada_name"> Sara Smith </p>
                     </div>
 
                     {/* <hr style={{ width: '100%}', textAlign: 'center' }} /> */}
