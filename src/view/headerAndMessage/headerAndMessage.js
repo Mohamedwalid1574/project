@@ -11,8 +11,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from "react-router-dom";
 
 const HeaderAndMessage = () => {
+
+
 
     const line = {}; // must be a name thats to be added to className which refers to a real class in css file 'clickedd-style' 
     const [Active, setActive] = useState(false);
@@ -64,12 +67,12 @@ const HeaderAndMessage = () => {
                                 </li>
 
                                 <li className="nav-item me-3 me-lg-1">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="/job">
                                         <span><i className="material-symbols-sharp">work</i></span>
                                         <span className="badge rounded-pill badge-notification bg-danger">2</span>
                                         <p className="nav-link-p">Jobs</p>
                                         {/* <button className="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> */}
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className="nav-item me-3 me-lg-1">
@@ -81,11 +84,11 @@ const HeaderAndMessage = () => {
                                 </li>
 
                                 <li className="nav-item me-3 me-lg-1">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="/not">
                                         <span><i className="material-symbols-sharp">notifications_active</i></span>
                                         <span className="badge rounded-pill badge-notification bg-danger">2</span>
                                         <p className="nav-link-p">Notifications</p>
-                                    </a>
+                                    </Link>
                                 </li>
 
 
@@ -122,7 +125,7 @@ const HeaderAndMessage = () => {
                                 </li>
 
                                 <li className="nav-item me-3 me-lg-1">
-                                    <p className="nada_tryyy" style={{ alignSelf: "center", marginTop: "10%" }}><a href="#">Try preminum for free</a></p>
+                                    <p className="nada_tryyy" style={{ alignSelf: "center", marginTop: "10%" }}><Link to="/pre">Try preminum for free</Link></p>
                                 </li>
 
 

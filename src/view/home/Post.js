@@ -6,10 +6,11 @@ import RectionPopUp from "./RectionPopUp";
 import './sidebar1.css';
 import user from './mypic.png';
 import EmojiPicker from 'emoji-picker-react';
-import { useState } from "react";
+import { useState , useRef} from "react";
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import AvatarGroup from '@mui/material/AvatarGroup';
+import { newPost } from "../../store/NotifSlice"; 
+import { useDispatch , useSelector } from "react-redux"; 
+import HeaderAndMessage from "../headerAndMessage/HeaderAndMessage";
 
 const Post = () => {
 
@@ -35,8 +36,18 @@ const Post = () => {
             </div>
         </>
     }
+    const dispatch = useDispatch()
+    
+    const comText =   useRef()
+    const handelePost = () =>{
+        const data = {
+            comText : comText.current.value
+        }
+        dispatch(newPost(data))
+    }
     return (
         <>
+        <HeaderAndMessage/>
             <div>
                 <div>
                     <Avatarme noBorder={true} radius={true} />
@@ -93,7 +104,7 @@ const Post = () => {
                             <div className="d-flex nada_input_commnent" >
 
                                 {/*   the user's comment   */}
-                                <input type="text" placeholder="Add Your Comment ..." onChange={(e) => { setComment(e.target.value) }} className="" />
+                                <input ref={comText} type="text" placeholder="Add Your Comment ..." onChange={(e) => { setComment(e.target.value) }} className="" />
 
 
                                 <span class="emo_file material-symbols-rounded nada_emmmo" onClick={() => setPicker(!picker)}>add_reaction</span>
@@ -106,10 +117,13 @@ const Post = () => {
                         </div>
                         {picker ? <EmojiPicker style={{ marginLeft: '10rem' }} /> : ' '}
 
-                        {comment ? <button onClick={() =>
+                        {comment ? <button onClick={() => {
                             <>
-                                <div>{comment}</div>
-                            </>
+                            <div>{comment}</div>
+                        </>
+                        handelePost()
+                        }
+                            
                         }
                             className="btn btn-primary nada_post_btn">post</button> : ' '}
 

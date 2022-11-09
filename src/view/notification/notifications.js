@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable array-callback-return */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from 'react';
-import './Notifications.css';
+import './notifications.css';
 // eslint-disable-next-line no-unused-vars
 import Button from 'react-bootstrap/Button';
 // eslint-disable-next-line no-unused-vars
@@ -22,26 +24,23 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 // eslint-disable-next-line no-unused-vars
 import Card from 'react-bootstrap/Card';
 
+// eslint-disable-next-line no-unused-vars
 import ListGroup from 'react-bootstrap/ListGroup';
-import { v4 } from "uuid";
+import { useSelector } from 'react-redux';
 
 
 
 
-const Notifications = (props) => {
 
-    // eslint-disable-next-line no-unused-vars
-    const notification = [
-        {
-            id: v4(),
-            type: "SUCCESS",
-            message: "hey"
-        }
-    ];
+function Notifications ()  {
 
-    console.log(notification);
-
-
+    const {postArr} = useSelector(state => state.notif)
+    const notifText = postArr.map((item)=>(
+        <h1>
+            {item.comText}
+        </h1>
+    ))
+    console.log(postArr);
     return (
         <>
             <div className='maro_not'>
@@ -71,7 +70,8 @@ const Notifications = (props) => {
 
                         <div className='col-5'>
                             <section className='xmaro_se2 '>
-                                2
+                                {notifText}
+                                marwa
                             </section>
                         </div>
 
@@ -94,8 +94,8 @@ const Notifications = (props) => {
                                     </div>
 
                                     <div className='xmaro_se3_pt3'>
-                                        <img src='https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/307293360_192280709858285_1579025695482809774_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEsCJvH6GkIdtEXmYxRGdx16WySYHmLBn3pbJJgeYsGfXb50CP9R5JHghXFhnpYmfmVpAbfFbr2exKQkw6cZsIt&_nc_ohc=XGWUvi9WaM0AX-RcPXv&tn=KzFv3Z8VYTVh1m5a&_nc_ht=scontent-hbe1-1.xx&oh=00_AfD6SBTqiNHYWscGrj0hKHTStfxhn8UedwiD05Pog0kXjQ&oe=63604911' className='xmaro_se3_img' alt='' ></img>
-                                        <img alt='' src="https://media-exp1.licdn.com/dms/image/C560EAQFYMXjIH_FIZQ/rightRail-logo-shrink_200_200/0/1631004222113?e=1668254400&amp;v=beta&amp;t=zPC9lnyyYKXp8kuTYj_wvdgvbVBQH2zFwy5nxbSy8SA" ></img>
+                                        <img src='https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/307293360_192280709858285_1579025695482809774_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEsCJvH6GkIdtEXmYxRGdx16WySYHmLBn3pbJJgeYsGfXb50CP9R5JHghXFhnpYmfmVpAbfFbr2exKQkw6cZsIt&_nc_ohc=XGWUvi9WaM0AX-RcPXv&tn=KzFv3Z8VYTVh1m5a&_nc_ht=scontent-hbe1-1.xx&oh=00_AfD6SBTqiNHYWscGrj0hKHTStfxhn8UedwiD05Pog0kXjQ&oe=63604911' className='xmaro_se3_img'  ></img>
+                                        <img  src="https://media-exp1.licdn.com/dms/image/C560EAQFYMXjIH_FIZQ/rightRail-logo-shrink_200_200/0/1631004222113?e=1668254400&amp;v=beta&amp;t=zPC9lnyyYKXp8kuTYj_wvdgvbVBQH2zFwy5nxbSy8SA" ></img>
                                     </div>
                                     <div className='xmaro_se3_pt4'>
                                         <p className='xmaro_se3_p3'>
@@ -185,6 +185,7 @@ const Notifications = (props) => {
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }
