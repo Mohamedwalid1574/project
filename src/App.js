@@ -78,15 +78,21 @@ function App() {
           <Route path='/second' element={<JobSeekersecond />} />
           <Route path='/third' element={<JobSeekerThird />} />
           <Route path='/forth' element={<JobSeekerForth />} />
-          <Route path='/pre' element={<Prepage/>} />
-        <Route path='/job' element={<Job/>} />
-        <Route path='/signup' element={<Signup/>} />
-        <Route path='/login' element={<Login/>} />
-        <Route path='/alertjob' element={<Alartjobs/>} />
-        <Route path='/builder' element={<ResumeBuilder/>} />
-        <Route path='/not' element={<Notifications />} />
+          <Route path='/pre' element={<Prepage />} />
+          <Route path='/job' element={<Job />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/alertjob' element={<Alartjobs />} />
+          <Route path='/builder' element={<ResumeBuilder />} />
+          <Route path='/not' element={<Notifications />} />
         </Routes>
       </Router>
+
+      <div className="bg1">
+        <HeaderAndMessage />
+        {/* <Home /> */}
+      </div>
+
 
     </>
 

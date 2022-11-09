@@ -79,10 +79,10 @@ body {
 /* .clickedd-style {
 
     /* border-bottom: 2px solid black; */
-    /* padding-bottom: 10%; */
+/* padding-bottom: 10%; */
 
 
-    /* text-decoration: underline;
+/* text-decoration: underline;
     color: red; */
 /* }  */
 
@@ -147,5 +147,62 @@ i :hover {
 }
 
 /* message stars -------------------------- */
+.nada_sticky_message {
+    max-width: 22rem;
+    position: absolute;
+    right: 1rem;
+    position: fixed;
+    /* top: 35rem; */
+    top: 43.5rem;
+    height: 20rem;
+}
+
+.expanded {
+    /* top: 35rem; */
+    background-color: aqua;
+}
+
+.not_expanded {
+    /* top: 43.5rem; */
+    background-color: red;
+
+}
+
+.msg :hover {
+    color: blue;
+}
+
+.nada_div_search_msg {
+    display: flex;
+    background-color: #eef1f8;
+    padding: 4px 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: -5px;
+    margin-bottom: 1rem;
+}
+
+.nada_div_search_msg input {
+    border: beige;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 25px;
+    outline: beige;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nada_list_fitting {
+    border-radius: 0px;
+    width: 111%;
+    border: #0ff0;
+    margin-left: -1rem;
+}
+
+.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-alignItemsFlexStart.css-hhvo2v-MuiListItem-root {
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
 
 /* message ends -------------------------- */
