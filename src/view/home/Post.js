@@ -4,7 +4,7 @@ import Comments from "./Comments";
 import alink from './Hiro.jfif'
 import RectionPopUp from "./RectionPopUp";
 import './sidebar1.css';
-import user from './mypic.png';
+// import user from './mypic.png';
 import EmojiPicker from 'emoji-picker-react';
 import { useState } from "react";
 import * as React from 'react';
@@ -20,6 +20,8 @@ const Post = () => {
     const love = "https://www.userflow.nl/images/Linkedin-Love-Icon-Heart250.png";
     const inightful = "https://www.userflow.nl/images/Linkedin-Insightful-Icon-Lamp250.png";
     const curios = "https://www.userflow.nl/images/Linkedin-Curious-Icon-PurpleSmiley250.png";
+
+    const user = 'https://toppng.com/public/uploads/preview/circled-user-icon-user-pro-icon-11553397069rpnu1bqqup.png';
 
     const hrSttyle = {
         width: '97%', textAlign: 'center', color: '#00000026', marginTop: '3px'
