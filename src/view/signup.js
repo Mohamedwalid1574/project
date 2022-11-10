@@ -59,7 +59,7 @@ const Signup = () => {
       <hr className="NGR-hr"></hr>    <span>&nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp;</span>  <hr className="NGR-hr"></hr>
        </div>
     <button className="NGR-agree-btn-google" type="submit">Continue with Google<img className="NGR-g-logo" src={G_logo} /></button>
-    <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights" href="/signin">Sign in</a></p>
+    <p className="NGR-Already-on-LinkedIn">Already on LinkedIn <a className="NGR-user-copyrights" href="/login">Sign in</a></p>
   </form>
   <p className="NGR-get-help ">Looking to create a page for a business?<a className="NGR-user-copyrights"> Get help </a></p>
     </div>

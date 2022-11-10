@@ -38,19 +38,16 @@ import Prepage from './view/premium/Prepage';
 
 
 import Creategroup from './view/myNetwork/sideBar/creategroup';
-
-
-
-
 import Login from './view/signin';
 import Signup from './view/signup';
-
-
 import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 import Notifications from './view/notification/notifications';
+import Post from './view/home/Post';
+import { useState } from 'react';
 function App() {
+  const [posts, setposts] = useState('');
   return (
 
     <>
@@ -80,18 +77,19 @@ function App() {
           <Route path='/forth' element={<JobSeekerForth />} />
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
-        <Route path='/signup' element={<Signup/>} />
+        <Route path='/' element={<Signup/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/post' element={<Post />}/>
         </Routes>
       </Router>
 
       <div className="bg1">
         <HeaderAndMessage />
-        <Home />
+
       </div>
 
 

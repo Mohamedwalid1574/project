@@ -2,8 +2,32 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import "../es_jobs.css";
+import { addDoc, collection ,getDocs ,setDoc ,doc} from "firebase/firestore"; 
+import { useState } from 'react';
+import { db } from '../../../../model/firebaseConfige';
+
 function Skills()
 {
+    // db.collection("skills").doc.set({
+    //     name: "Frank",
+    //     favorites: {
+    //       food: "Pizza",
+    //       color: "Blue",
+    //       subject: "Recess"
+    //     },
+    //     age: 12
+    //   }).then(function() {
+    //     console.log("Frank created");
+    //   });
+    const [skill, setskill] = useState('');
+    const onClick = async (e) => {
+        e.preventDefault()
+        await setDoc(doc(db, "cities", "LA"), {
+        name: "Los Angeles",
+        state: "CA",
+        country: "USA"
+
+      });}
     return(
         <>
             
@@ -22,12 +46,10 @@ function Skills()
 <div id='div1'>
 <div className='d-flex mt-4'>
     <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
-    <div>
-        <p>
-        Object-Oriented Programming (OOP)
-        </p>
-        <p className='es_font3 es_font4'>Topics: Four Principles of OOP, Object-Oriented Programming Fundamentals, Software Design, Software Development</p>
-    </div>
+    <div onClick={(e)=>{setskill(e.target.value)}}>
+        <p>{skill}</p>
+        
+        </div>
 </div>
 <div className='d-flex mt-4'>
     <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
