@@ -8,26 +8,6 @@ import { db } from '../../../../model/firebaseConfige';
 
 function Skills()
 {
-    // db.collection("skills").doc.set({
-    //     name: "Frank",
-    //     favorites: {
-    //       food: "Pizza",
-    //       color: "Blue",
-    //       subject: "Recess"
-    //     },
-    //     age: 12
-    //   }).then(function() {
-    //     console.log("Frank created");
-    //   });
-    const [skill, setskill] = useState('');
-    const onClick = async (e) => {
-        e.preventDefault()
-        await setDoc(doc(db, "cities", "LA"), {
-        name: "Los Angeles",
-        state: "CA",
-        country: "USA"
-
-      });}
     return(
         <>
             
