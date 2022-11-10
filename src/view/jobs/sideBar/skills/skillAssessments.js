@@ -26,10 +26,13 @@ function Skills()
 <div id='div1'>
 <div className='d-flex mt-4'>
     <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>
-    <div onClick={(e)=>{setskill(e.target.value)}}>
-        <p>{skill}</p>
-        
-        </div>
+    <div>
+        <p>
+        React.js
+        </p>
+        <p className='es_font3 es_font4'>Topics: Advanced React, Component Side Effects, Rendering React Elements, Stateful Components and User Interactivity
+792k people took this</p>
+    </div>
 </div>
 <div className='d-flex mt-4'>
     <img alt='' src='https://media.licdn.com/media/AAYQAQSZAAgAAQAAAAAAABu2v0Ua5w2jRuOvJE7JAGuwDw.png' className='es_img_skills'/>

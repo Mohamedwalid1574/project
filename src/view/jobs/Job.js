@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
+import './sideBar/es_jobs.css'
 import React from 'react'
 import './Job.css'
 // eslint-disable-next-line no-unused-vars
@@ -71,7 +71,44 @@ function Job() {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
 <path d="M9.13 1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4.9zM11 13H5V3h3v3h3v7zM6 8h4v1H6V8zm0 2h3v1H6v-1z"></path>
 </svg>
-                            <Link to='/' className='maro_se1_lk'>Resume Builder</Link>
+<button type="button" class="btn btn-primary es_btn_model" data-bs-toggle="modal" data-bs-target="#myModal">
+Resume Builder
+  </button>
+  <div variant="light" className='modal ' id='myModal'>
+      <div className="modal-dialog" style={{marginLeft:"300px"}}>
+    <div className="modal-content es_alart2">
+      <div className="modal-header d-block">
+        <h5 className='es_font'>Select a resume</h5>
+        <p className='es_font2'>Get insights for formatting issues, keywords, and more.</p>
+      </div>
+      <div className="modal-body">
+        <div className='es_div_res'>
+            <div className="alert alert-secondary es_font2" role="alert">
+            Supported upload formats: 5MB max in .DOCX or .PDF
+</div>
+<div className='es_font3 es_div2_res'>
+Resumes you build on LinkedIn will appear here.
+</div>
+        
+    </div>
+        <div className="modal-footer d-flex justify-content-end">
+            <div className="es_button1">
+            <a href='/profile' className='es_link'>
+            <span className="es_font1">Create from profile</span></a>
+            </div>
+        <form>
+        <label class="custom-file-upload2">
+    <input type="file"/>
+ Upload resume
+</label>
+            </form>
+
+      </div>
+      </div>
+        <hr />
+        </div>
+        </div>
+        </div>
                         </div>
 
                         <div className='maro_se1_lf1'>
@@ -85,7 +122,56 @@ function Job() {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M6 1L3 2.76 4 5.2l-.36.63L1 6.22v3.52l2.55.39.38.66L3 13.22 6 15l1.6-2h.76L10 15l3-1.76-.94-2.43.38-.65L15 9.78V6.26l-2.58-.4-.36-.62 1-2.46L10 1 8.37 3.08h-.71zm2 5a2 2 0 11-2 2 2 2 0 012-2z"></path>
 </svg>
-                            <Link to='/appliaction' className='maro_se1_lk' >Application settings</Link>
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary es_btn_model" data-bs-toggle="modal" data-bs-target="#myModal2">
+  Application settings
+  </button>
+</div>
+      <div variant="light" className='modal ' id='myModal2'>
+      <div className="modal-dialog" style={{marginLeft:"300px"}}>
+    <div className="modal-content es_alart">
+      <div className="modal-header">
+        <h5 className='es_font'>Job alarts</h5>
+      </div>
+      <div className="modal-body">
+        <div className='es_div'>
+            <div className=' es_div2'>
+      <img alt='' className='es_img1' src={"https://static.vecteezy.com/system/resources/previews/002/828/322/non_2x/two-friends-on-video-meeting-video-call-concept-flat-illustration-vector.jpg"}/>
+        <h5 className='es_font'>You have no job alerts yet</h5>
+        <p className='es_font'>
+        Flip the switch on a job search page to create a new alert.
+        </p>
+        <div>
+            <button className="es_button1">
+            <span className="es_font1">Search for jobs</span></button>
+        </div>
+        </div>
+        <hr/>
+        <div className='d-flex'>
+        <div className='col-11'>
+        <h6 className='es_font'>Job recommendations</h6>
+        <p className='es_font'>Based on your job alerts, activity, and profile. <a href='#' className='es_link'>Learn more.</a></p>
+        </div>
+        <div >
+        <label className="switch">
+
+  <input type="checkbox"/>
+  <span className="slider round"></span>
+</label>
+        </div>
+        </div>
+    </div>
+        <div className="modal-footer d-flex justify-content-end">
+        <button className='es_button2' data-bs-dismiss="modal">
+            Done
+          </button>
+      </div>
+      </div>
+        <hr />
+        </div>
+        </div>
+        </div>
+                            
                         </div>
                         </div>
 

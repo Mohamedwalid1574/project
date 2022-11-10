@@ -466,3 +466,8 @@ margin-right: 10px;
   border: 1px solid lightgray;
 
 }
+.es_btn_model{
+  border: 0;
+  background-color: white;
+  color: black;
+}
