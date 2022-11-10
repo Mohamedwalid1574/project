@@ -21,7 +21,7 @@ import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
 import Home from './view/home/home';
-import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
+import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
 
 
 
@@ -44,16 +44,18 @@ import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 import Notifications from './view/notification/notifications';
-import Post from './view/home/Post';
-import { useState } from 'react';
 function App() {
   const [posts, setposts] = useState('');
   return (
 
     <>
 
+
+      
       <Router>
         <Routes>
+        <Route path='/' element={<Login/>} />
+        
           <Route path="/mynetwork" element={<Mynetwork />} />
           <Route path="/connection" element={<Connection />} />
           <Route path="/contacts" element={<Contact />} />
@@ -77,7 +79,7 @@ function App() {
           <Route path='/forth' element={<JobSeekerForth />} />
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
-        <Route path='/' element={<Signup/>} />
+        <Route path='/signup' element={<Signup/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />

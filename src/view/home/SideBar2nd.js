@@ -26,7 +26,7 @@ const SideBar_2nd = () => {
                         </header>
                         <div>
                             <div>
-                                <img src={GIRL} alt="" />
+                                <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFKe8PwqzyHyA/company-logo_100_100/0/1635171226731?e=1675900800&v=beta&t=OWB4QWW9egmOhFlK-Cz9ZD3Q1dsTvF7MU-ingvbabjc" alt="" />
                                 <div>
                                     <strong>MongoDB</strong>
                                     <small>Company - Computer Software</small>
@@ -37,7 +37,7 @@ const SideBar_2nd = () => {
                                 </button>
                             </div>
                             <div>
-                                <img src={GIRL} alt="" />
+                                <img src="https://media-exp1.licdn.com/dms/image/C510BAQGyCfCQzGP_RA/company-logo_100_100/0/1519900931012?e=1675900800&v=beta&t=TOeowwgHn0r3dlcu58uCRsQm4EQPgM-7gGLiXue5SQQ" alt="" />
                                 <div>
                                     <strong>#reactjs</strong>
                                 </div>
@@ -47,7 +47,7 @@ const SideBar_2nd = () => {
                                 </button>
                             </div>
                             <div>
-                                <img src={GIRL} alt="" />
+                                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFtWRxo8Uy7vw/profile-displayphoto-shrink_100_100/0/1516320942361?e=1673481600&v=beta&t=uWE2yN0jl_WrqrzhC9KTZSiB3T0gWU6_QqTfmXSh7sU" alt="" />
                                 <div>
                                     <strong>John Smith</strong>
                                     <small
@@ -74,7 +74,7 @@ const SideBar_2nd = () => {
                                 Linkedin Premium</span
                             >
                             <div>
-                                <img src={GIRL} alt="" />
+                                <img src="https://media-exp1.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_100_100/0/1618231291419?e=1675900800&v=beta&t=mdGyxmfHbpBjJwfK3XBrtDhUzMDqzsT9AIKymcimhkU" alt="" />
                                 <img
                                     id="linkedin-key"
                                     src={GIRL}

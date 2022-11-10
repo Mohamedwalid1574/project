@@ -23,10 +23,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line no-unused-vars
 import ListGroup from 'react-bootstrap/ListGroup';
+import HeaderAndMessage from '../headerAndMessage/HeaderAndMessage';
+import { Link } from 'react-router-dom';
 
 function Job() {
     return (
         <>
+        <HeaderAndMessage/>
             <div className='maro_job'>
             <div className='container'>
                 <div className='row'>
@@ -39,28 +42,28 @@ function Job() {
 <path d="M13 4a3 3 0 00-3-3H3v14l5-4.5 5 4.5z"></path>
 </svg>
                             
-                            <a href='#' className='maro_se1_lk'>My job</a>
+                            <Link to='/' className='maro_se1_lk'>My job</Link>
                         </div>
                         <div className='maro_se1_lf1'>
                             
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M12.87 8H3.13l.49-3.21a4.43 4.43 0 018.76 0zM15 11.84a2.56 2.56 0 00-.5-1.51L13.5 9h-11l-1 1.33a2.56 2.56 0 00-.5 1.51V13h5.59a1.64 1.64 0 00-.09.5 1.5 1.5 0 003 0 1.64 1.64 0 00-.09-.5H15z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk' >Job alerts</a>
+                            <Link to='/' className='maro_se1_lk' >Job alerts</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M12.57 2H15L6 15l-5-5 1.41-1.41 3.31 3.3z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Skill Assessments</a>
+                            <Link to='/assessment' className='maro_se1_lk'>Skill Assessments</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Interview prep</a>
+                            <Link to='/interview' className='maro_se1_lk'>Interview prep</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
@@ -68,21 +71,21 @@ function Job() {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
 <path d="M9.13 1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4.9zM11 13H5V3h3v3h3v7zM6 8h4v1H6V8zm0 2h3v1H6v-1z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Resume Builder</a>
+                            <Link to='/' className='maro_se1_lk'>Resume Builder</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M3 3h8v10H3a2 2 0 01-2-2V5a2 2 0 012-2zm10.5 1l-1.5.75v6.5l1.5.75H15V4z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Job seeker guidance</a>
+                            <Link to='/first' className='maro_se1_lk'>Job seeker guidance</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M6 1L3 2.76 4 5.2l-.36.63L1 6.22v3.52l2.55.39.38.66L3 13.22 6 15l1.6-2h.76L10 15l3-1.76-.94-2.43.38-.65L15 9.78V6.26l-2.58-.4-.36-.62 1-2.46L10 1 8.37 3.08h-.71zm2 5a2 2 0 11-2 2 2 2 0 012-2z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk' >Application settings</a>
+                            <Link to='/appliaction' className='maro_se1_lk' >Application settings</Link>
                         </div>
                         </div>
 
@@ -840,7 +843,7 @@ Explore our curated guide of expert-led courses, such as how to improve your res
 </div>
 
 
-<div className='maro_se3_end'>
+<div className='maro_se3_endz'>
 <p className='maro_se3_e1'> 
     LinkedIn
 </p>
