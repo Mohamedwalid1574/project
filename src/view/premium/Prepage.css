@@ -1,4 +1,6 @@
-
+/* .maro_pre{
+    margin-top: 100px;
+} */
 .maro_section1{
     display: flex;
     justify-content: space-between;

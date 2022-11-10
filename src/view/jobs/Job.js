@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
+import './sideBar/es_jobs.css'
 import React from 'react'
 import './Job.css'
 // eslint-disable-next-line no-unused-vars
@@ -23,10 +23,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line no-unused-vars
 import ListGroup from 'react-bootstrap/ListGroup';
+import HeaderAndMessage from '../headerAndMessage/HeaderAndMessage';
+import { Link } from 'react-router-dom';
 
 function Job() {
     return (
         <>
+        <HeaderAndMessage/>
             <div className='maro_job'>
             <div className='container'>
                 <div className='row'>
@@ -39,28 +42,28 @@ function Job() {
 <path d="M13 4a3 3 0 00-3-3H3v14l5-4.5 5 4.5z"></path>
 </svg>
                             
-                            <a href='#' className='maro_se1_lk'>My job</a>
+                            <Link to='/' className='maro_se1_lk'>My job</Link>
                         </div>
                         <div className='maro_se1_lf1'>
                             
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M12.87 8H3.13l.49-3.21a4.43 4.43 0 018.76 0zM15 11.84a2.56 2.56 0 00-.5-1.51L13.5 9h-11l-1 1.33a2.56 2.56 0 00-.5 1.51V13h5.59a1.64 1.64 0 00-.09.5 1.5 1.5 0 003 0 1.64 1.64 0 00-.09-.5H15z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk' >Job alerts</a>
+                            <Link to='/' className='maro_se1_lk' >Job alerts</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M12.57 2H15L6 15l-5-5 1.41-1.41 3.31 3.3z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Skill Assessments</a>
+                            <Link to='/assessment' className='maro_se1_lk'>Skill Assessments</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Interview prep</a>
+                            <Link to='/interview' className='maro_se1_lk'>Interview prep</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
@@ -68,21 +71,107 @@ function Job() {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
 <path d="M9.13 1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4.9zM11 13H5V3h3v3h3v7zM6 8h4v1H6V8zm0 2h3v1H6v-1z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Resume Builder</a>
+<button type="button" class="btn btn-primary es_btn_model" data-bs-toggle="modal" data-bs-target="#myModal">
+Resume Builder
+  </button>
+  <div variant="light" className='modal ' id='myModal'>
+      <div className="modal-dialog" style={{marginLeft:"300px"}}>
+    <div className="modal-content es_alart2">
+      <div className="modal-header d-block">
+        <h5 className='es_font'>Select a resume</h5>
+        <p className='es_font2'>Get insights for formatting issues, keywords, and more.</p>
+      </div>
+      <div className="modal-body">
+        <div className='es_div_res'>
+            <div className="alert alert-secondary es_font2" role="alert">
+            Supported upload formats: 5MB max in .DOCX or .PDF
+</div>
+<div className='es_font3 es_div2_res'>
+Resumes you build on LinkedIn will appear here.
+</div>
+        
+    </div>
+        <div className="modal-footer d-flex justify-content-end">
+            <div className="es_button1">
+            <a href='/profile' className='es_link'>
+            <span className="es_font1">Create from profile</span></a>
+            </div>
+        <form>
+        <label class="custom-file-upload2">
+    <input type="file"/>
+ Upload resume
+</label>
+            </form>
+
+      </div>
+      </div>
+        <hr />
+        </div>
+        </div>
+        </div>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M3 3h8v10H3a2 2 0 01-2-2V5a2 2 0 012-2zm10.5 1l-1.5.75v6.5l1.5.75H15V4z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk'>Job seeker guidance</a>
+                            <Link to='/first' className='maro_se1_lk'>Job seeker guidance</Link>
                         </div>
 
                         <div className='maro_se1_lf1'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
 <path d="M6 1L3 2.76 4 5.2l-.36.63L1 6.22v3.52l2.55.39.38.66L3 13.22 6 15l1.6-2h.76L10 15l3-1.76-.94-2.43.38-.65L15 9.78V6.26l-2.58-.4-.36-.62 1-2.46L10 1 8.37 3.08h-.71zm2 5a2 2 0 11-2 2 2 2 0 012-2z"></path>
 </svg>
-                            <a href='#' className='maro_se1_lk' >Application settings</a>
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary es_btn_model" data-bs-toggle="modal" data-bs-target="#myModal2">
+  Application settings
+  </button>
+</div>
+      <div variant="light" className='modal ' id='myModal2'>
+      <div className="modal-dialog" style={{marginLeft:"300px"}}>
+    <div className="modal-content es_alart">
+      <div className="modal-header">
+        <h5 className='es_font'>Job alarts</h5>
+      </div>
+      <div className="modal-body">
+        <div className='es_div'>
+            <div className=' es_div2'>
+      <img alt='' className='es_img1' src={"https://static.vecteezy.com/system/resources/previews/002/828/322/non_2x/two-friends-on-video-meeting-video-call-concept-flat-illustration-vector.jpg"}/>
+        <h5 className='es_font'>You have no job alerts yet</h5>
+        <p className='es_font'>
+        Flip the switch on a job search page to create a new alert.
+        </p>
+        <div>
+            <button className="es_button1">
+            <span className="es_font1">Search for jobs</span></button>
+        </div>
+        </div>
+        <hr/>
+        <div className='d-flex'>
+        <div className='col-11'>
+        <h6 className='es_font'>Job recommendations</h6>
+        <p className='es_font'>Based on your job alerts, activity, and profile. <a href='#' className='es_link'>Learn more.</a></p>
+        </div>
+        <div >
+        <label className="switch">
+
+  <input type="checkbox"/>
+  <span className="slider round"></span>
+</label>
+        </div>
+        </div>
+    </div>
+        <div className="modal-footer d-flex justify-content-end">
+        <button className='es_button2' data-bs-dismiss="modal">
+            Done
+          </button>
+      </div>
+      </div>
+        <hr />
+        </div>
+        </div>
+        </div>
+                            
                         </div>
                         </div>
 
@@ -840,7 +929,7 @@ Explore our curated guide of expert-led courses, such as how to improve your res
 </div>
 
 
-<div className='maro_se3_end'>
+<div className='maro_se3_endz'>
 <p className='maro_se3_e1'> 
     LinkedIn
 </p>

@@ -20,11 +20,16 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
+<<<<<<< HEAD
 // import Home from './view/home/home';
 // import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
 
 
 
+=======
+import Home from './view/home/home';
+import HeaderAndMessage from './view/headerAndMessage/HeaderAndMessage';
+>>>>>>> c6bf3ba78461bbe60c9e616331f8fe820b24101f
 import Skills from './view/jobs/sideBar/skills/skillAssessments';
 import SkillsIndustry from './view/jobs/sideBar/skills/indastry';
 import SkillsTools from './view/jobs/sideBar/skills/tools';
@@ -35,28 +40,26 @@ import JobSeekerThird from './view/jobs/sideBar/jobseek/jobseekthird';
 import JobSeekerForth from './view/jobs/sideBar/jobseek/jobseekforth';
 import Job from './view/jobs/Job';
 import Prepage from './view/premium/Prepage';
-
-
+import Post from './view/home/Post';
 import Creategroup from './view/myNetwork/sideBar/creategroup';
-
-
-
-
 import Login from './view/signin';
 import Signup from './view/signup';
-
-
 import Interview from './view/jobs/sideBar/interviewPrep';
 import Alartjobs from './view/jobs/sideBar/jobAlerts';
 import ResumeBuilder from './view/jobs/sideBar/resumeBuilder';
 import Notifications from './view/notification/notifications';
 function App() {
+  
   return (
 
     <>
 
+
+      
       <Router>
         <Routes>
+        <Route path='/' element={<Login/>} />
+        
           <Route path="/mynetwork" element={<Mynetwork />} />
           <Route path="/connection" element={<Connection />} />
           <Route path="/contacts" element={<Contact />} />
@@ -81,18 +84,27 @@ function App() {
           <Route path='/pre' element={<Prepage/>} />
         <Route path='/job' element={<Job/>} />
         <Route path='/signup' element={<Signup/>} />
-        <Route path='/login' element={<Login/>} />
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />
+<<<<<<< HEAD
         {/* <Route path='/home' element={<Home />} /> */}
+=======
+        <Route path='/home' element={<Home />} />
+        <Route path='/post' element={<Post />}/>
+>>>>>>> c6bf3ba78461bbe60c9e616331f8fe820b24101f
         </Routes>
       </Router>
 
       {/* <div className="bg1">
         <HeaderAndMessage />
+<<<<<<< HEAD
         <Home />
       </div> */}
+=======
+
+      </div>
+>>>>>>> c6bf3ba78461bbe60c9e616331f8fe820b24101f
 
 
     </>
