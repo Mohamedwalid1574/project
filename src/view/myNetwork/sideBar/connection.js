@@ -20,8 +20,7 @@ export default function Connection() {
                                 <p className="card-text">Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
 
 
-                                <p className="card-text" style={{ marginTop: "15px" }}>Discover fresh ideas and jobs on LinkedIn through your connections and their <br /> networks. Find your first connection below.</p>
-                                <div className="image-linked"><img alt='' src="./image/image-linked.png" /></div>
+
 
                             </div>
                         </div>
@@ -39,6 +38,10 @@ export default function Connection() {
                                 You control who you connect to, and you can manage your contacts anytime.
                                 <a className="text-decoration-none ">Learn more</a>
                             </p>
+
+
+
+                            <p>   You control who you connect to, and you can manage your contacts anytime. <a href='/#' className="text-decoration-none tet">Learn more</a> </p>
                             <form>
                                 <input type="email" className="form-control w-75 h-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address" />
                                 < input className="btn btn-primary w-10 px-3 py-1 mt-2 rounded-pill" type='button' value='continue' />
@@ -46,13 +49,7 @@ export default function Connection() {
 
                             <a className="text-muted text-decoration-none mb-3 form-control-sm ">More options</a>
 
-
-                            <p>   You control who you connect to, and you can manage your contacts anytime. <a href='/#' className="text-decoration-none tet">Learn more</a> </p>
-                            <input type="email" className="form-control w-75 h-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email adress" />                    </div>
-                        <button type="button" className="btn btn-primary " style={{ width: "100px", marginLeft: "25px", borderRadius: "50px " }}>Continue</button>
-                        <a href='/#' className="text-muted text-decoration-none mb-3 form-control-sm mx-2 ">More options</a>
-
-
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-3 col-sm-12  " >
@@ -61,7 +58,7 @@ export default function Connection() {
                         <img alt='' src={photo} className='p-2 w-100' />
 
                         <div
-                            className="text-xl-center mt-3 "
+                            className="text-xl-center mt-3 mx-2"
                             style={{ overflow: " visible" }}
 
                         >
@@ -98,13 +95,20 @@ export default function Connection() {
                                 <a className="link m-2" href='/#' >Advertising</a>
                             </span>
                             <div className='centeroflinked  my-3'>
-                                <div className="   d-flex " >
-                                    <div className='d-flex align-items-center text-primary'>
-                                        <h6 className='m-0'>linked</h6>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width='18' height='18' color='blue' viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                <div className='d-flex justify-content-center'>
+                                    <p className='maro_se3_e1'>
+                                        LinkedIn
+                                    </p>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" class="mercado-match" width="16" height="16" focusable="false">
+                                            <path d="M15 2v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1h12a1 1 0 011 1zM5 6H3v7h2zm.25-2A1.25 1.25 0 104 5.25 1.25 1.25 0 005.25 4zM13 9.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 007.89 7V6H6v7h2V9.73a1.73 1.73 0 011.52-1.92h.14C10.82 7.8 11 8.94 11 9.73V13h2z" fill="#0a66c2"></path>
                                         </svg>
                                     </div>
-                                    <small >Linkedin Corporation©2022</small>
+
+                                    <p className='maro_se3_e2'>
+                                        LinkedIn Corporation 2022
+                                    </p>
+
                                 </div>
                             </div>
                         </div>

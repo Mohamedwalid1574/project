@@ -13,7 +13,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
-//import * as React from 'react';
+// import * as React from 'react';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Divider from '@mui/material/Divider';
@@ -345,7 +345,7 @@ const HeaderAndMessage = () => {
 
                             <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
 
-                                {/* active class added to the selescted chat handel it */}
+                                active class added to the selescted chat handel it
 
                                 <button onClick={msgActive} type="button" class="list-group-item list-group-item-action" aria-current="true">
                                     <ListItem alignItems="flex-start">
@@ -482,7 +482,7 @@ const HeaderAndMessage = () => {
                                 {/* not working the on click!! */}
                                 {/* <MsgPerson onClick={msgActive} /> */}
 
-                            </List>
+                            </List> 
                         </div>
 
                     </p>

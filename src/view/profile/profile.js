@@ -48,10 +48,10 @@ export default function Profile() {
                                             <p className="ps-2 my-0">كليه الهندسه</p>
                                         </div>
                                     </div>
-                                    <div className="d-flex px-4 ">
-                                        <div className="btn bg-primary rounded-pill text-light">open to</div>
-                                        <div className="btn rounded-pill border border-primary border-2 ms-2 text-primary  ">add profile section</div>
-                                        <div className="btn rounded-pill  border border-dark border-2  ms-2 ">more</div>
+                                    <div className="px-4 row">
+                                       <div className="btn bg-primary rounded-pill text-light col p-0 m-0">open to</div>
+                                        <div className='col p-0 m-0'><div className="btn rounded-pill border border-primary border-2 ms-2 text-primary  ">add profile section</div></div>
+                                        <div className='col p-0 m-0'><div className="btn rounded-pill  border border-dark border-2  ms-2 ">more</div> </div>
                                     </div>
                                 </div>
                                 <div className="card mt-2 p-4">

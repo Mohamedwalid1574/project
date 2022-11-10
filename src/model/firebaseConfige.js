@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth"; 
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyARb66BsTD4N7oxI3Fo02zBix5LlRXwgJQ",
   authDomain: "linkedin-project-f1f7d.firebaseapp.com",
@@ -15,5 +16,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+
+ 
 
 

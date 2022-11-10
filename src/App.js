@@ -20,8 +20,8 @@ import Pageofgroup from './view/myNetwork/sideBar/pageofgroup/pagepfgroup';
 import Pages from './view/myNetwork/sideBar/pages';
 import Peopleifollow from './view/myNetwork/sideBar/peopleIFollow';
 import Profile from './view/profile/profile';
-import Home from './view/home/home';
-import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
+// import Home from './view/home/home';
+// import HeaderAndMessage from './view/headerAndMessage/headerAndMessage';
 
 
 
@@ -85,14 +85,14 @@ function App() {
         <Route path='/alertjob' element={<Alartjobs/>} />
         <Route path='/builder' element={<ResumeBuilder/>} />
         <Route path='/not' element={<Notifications />} />
-        <Route path='/home' element={<Home />} />
+        {/* <Route path='/home' element={<Home />} /> */}
         </Routes>
       </Router>
 
-      <div className="bg1">
+      {/* <div className="bg1">
         <HeaderAndMessage />
         <Home />
-      </div>
+      </div> */}
 
 
     </>

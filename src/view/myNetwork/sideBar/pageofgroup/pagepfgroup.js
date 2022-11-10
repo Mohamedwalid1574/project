@@ -2,7 +2,9 @@ import './pageofgroup.css';
 import cover from '../../image/images.png';
 import photo from '../../image/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png';
 import pro from '../../image/Dragon_ball_super-2a89a1a6-e6f4-4fe0-8a12-f537883dc644.jpg';
-import friendphoto from '../../image/One_Piece-9f62b3e6-bd9c-423b-b154-09b15a724f62.jpg';
+import {
+   Link
+  } from "react-router-dom";
 
 export default function Pageofgroup() {
     return (
@@ -10,7 +12,7 @@ export default function Pageofgroup() {
 
             <div className="container pt-4">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-4 col-sm-12 ">
                         <div className="card ">
                             <img alt='' src={cover} />
 
@@ -19,15 +21,15 @@ export default function Pageofgroup() {
 
                         </div>
                         <div className="card mt-2 " style={{ position: "relative", position: "sticky", top: "10%" }}>
-                            <a href='/#' className="text-primary py-1 px-2 a">groups</a>
-                            <a href='/#' className="text-primary py-1 px-2 a">events</a>
-                            <a href='/#' className="text-primary py-1 px-2 a">follow hashtages</a>
+                            <Link to="/creategroup" className="text-primary py-1 px-2">groups</Link>
+                            <Link to="/events"  className="text-primary py-1 px-2 ">events</Link>
+                            <Link to="/hashtages"  className="text-primary py-1 px-2">follow hashtages</Link>
                             <hr className="hrfull" />
                             <div className=" text-center py-2">Discover More</div>
 
                         </div>
                     </div>
-                    <div className="col-7">
+                    <div className="col-lg-7 col-md-8 col-sm-12">
                         <div className="card">
                             <img alt='' src={cover} />
                             <div className='d-flex mx-3 justify-content-between'>
@@ -39,7 +41,7 @@ export default function Pageofgroup() {
                             <h3 className="ms-3 me-2">Software/Technology: Marketing, Social Media, Startups, Blockchain, Human
                                 Resources & Metaverse</h3>
                             <div className="d-flex align-items-center ms-3 w-25  ">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-people-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                                     <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
                                     <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
@@ -64,7 +66,7 @@ export default function Pageofgroup() {
                         <div className="card mt-2 px-2 py-3">
                             <h3>Member highlights</h3>
                             <div className="d-flex align-items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46"   viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                                 </svg>
                                 <div className="ms-2">
@@ -113,15 +115,15 @@ export default function Pageofgroup() {
                             <div className="text-center my-0 py-2">show all</div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-12 col-sm-12">
                         <div className="card ">
                             <div className="px-2 py-3">
                                 <h5>Admins</h5>
 
                                 <div className="d-flex mt-3">
-                                    <div>
-                                        <img alt='' src={friendphoto} className="mo" />
-                                    </div>
+                                <div style={{ width: "75px", height: "75px",  borderRadius: "50%" }} >
+                                      <img alt='' src={pro} className="  mohamed2" />
+                                      </div>
                                     <div className="ms-2">
                                         <p className="mb-0">Peter Lee, Esq., CAMS, CBP</p>
                                         <div className="my-0  d-inline px-2" style={{ backgroundColor: "rgb(190, 189, 189)" }}>owner</div>
@@ -131,14 +133,14 @@ export default function Pageofgroup() {
                                     </div>
                                 </div>
 
-                                <div class="d-flex  mt-3">
-                                    <div>
-                                        <img alt='' src={friendphoto} className="mo" />
-                                    </div>
-                                    <div class="ms-2">
-                                        <p class="mb-0">md kmural hasan</p>
-                                        <div class="my-0  d-inline px-2" style={{ backgroundColor: "rgb(190, 189, 189)" }}>manager</div>
-                                        <p class="opacity-50 mx-0">General Manager & Head of Admin at BJIT Group
+                                <div className="d-flex  mt-3">
+                                <div style={{ width: "75px", height: "75px",  borderRadius: "50%" }} >
+                                      <img alt='' src={pro} className="  mohamed2" />
+                                      </div>
+                                    <div className="ms-2">
+                                        <p className="mb-0">md kmural hasan</p>
+                                        <div className="my-0  d-inline px-2" style={{ backgroundColor: "rgb(190, 189, 189)" }}>manager</div>
+                                        <p className="opacity-50 mx-0">General Manager & Head of Admin at BJIT Group
                                             Bernadeth Madlangbayan
                                         </p>
 
@@ -146,9 +148,9 @@ export default function Pageofgroup() {
                                 </div>
 
                                 <div className="d-flex mt-3">
-                                    <div>
-                                        <img alt='' src={friendphoto} className="mo" />
-                                    </div>
+                                <div style={{ width: "75px", height: "75px",  borderRadius: "50%" }} >
+                                      <img alt='' src={pro} className="  mohamed2" />
+                                      </div>
                                     <div className="ms-2">
                                         <p className="mb-0">bernadeth madlangbayan</p>
                                         <div className="my-0  d-inline px-2" style={{ backgroundColor: "rgb(190, 189, 189)" }}>manager</div>
@@ -187,13 +189,20 @@ export default function Pageofgroup() {
                                     <a href="/#" className='a text-muted'><small className="card-text"> Get the LinkedIn app</small></a>
                                     <a href="/#" className='a text-muted'><small className="card-text">  More</small></a>
                                 </div>
-                                <div style={{ display: "flex", marginLeft: " 50px", marginTop: "20px" }}>
-                                    <svg style={{ color: "rgb(66, 66, 245)", marginTop: "5px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14" data-supported-dps="56x14" fill="currentColor" className="mercado-match" width="56" height="14" focusable="false">
-                                        <g>
-                                            <path className="background-mercado" d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z"></path>
-                                        </g>
-                                    </svg>
-                                    <small> LinkedIn Corporation © 2022</small>
+                                <div className='d-flex justify-content-center'>
+                                    <p className='maro_se3_e1'>
+                                        LinkedIn
+                                    </p>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" class="mercado-match" width="16" height="16" focusable="false">
+                                            <path d="M15 2v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1h12a1 1 0 011 1zM5 6H3v7h2zm.25-2A1.25 1.25 0 104 5.25 1.25 1.25 0 005.25 4zM13 9.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 007.89 7V6H6v7h2V9.73a1.73 1.73 0 011.52-1.92h.14C10.82 7.8 11 8.94 11 9.73V13h2z" fill="#0a66c2"></path>
+                                        </svg>
+                                    </div>
+
+                                    <p className='maro_se3_e2'>
+                                        LinkedIn Corporation 2022
+                                    </p>
+
                                 </div>
                             </div>
                         </div>

@@ -12,19 +12,24 @@ export default function Hashtages() {
                 <div className="row">
                     <div className="col-md-8 col-sm-12">
                         <div className="card">
-                            <ul className="list-group list-group-flush">
+                            
 
-                                <img alt='' src={empty} className="mt-3  " />
-                                <div className="card-text mt-3 mb-5 text-xl-center" >
+                            <div className='centeroflinked'>
+                                    <img src={empty} />
+                                </div>
+                                <div className="card-text mt-3 mb-5 centeroflinked" >
                                     <h6 class="form-control-lg mb-0"> No hashtags followed</h6>
-                                    Looks like you are not following any <br /> hashtags.</div>
-                            </ul>
+                                    Looks like you are not following any <span> hashtags. </span>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div className="col-md-4 col-sm-12">
-                    <div className='center'>
-                            <img alt='' src={photo} />
+                    <div className=''>
+                            <div className='card px-2'>
+                                <img alt='' src={photo} />
+                            </div>
                             <div className="text-xl-center mt-3" >
                                 <span>
                                     <a href="https://about.linkedin.com/" className="link m-2  text-muted">About
@@ -49,9 +54,20 @@ export default function Hashtages() {
 
                                     </a>
                                 </span>
-                                <div className="text-center">
-                                    <img alt='' src="./image/foot.png" /><span >Linkedin Corporation
-                                        © 2022</span>
+                                <div className='d-flex justify-content-center'>
+                                    <p className='maro_se3_e1'>
+                                        LinkedIn
+                                    </p>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" class="mercado-match" width="16" height="16" focusable="false">
+                                            <path d="M15 2v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1h12a1 1 0 011 1zM5 6H3v7h2zm.25-2A1.25 1.25 0 104 5.25 1.25 1.25 0 005.25 4zM13 9.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 007.89 7V6H6v7h2V9.73a1.73 1.73 0 011.52-1.92h.14C10.82 7.8 11 8.94 11 9.73V13h2z" fill="#0a66c2"></path>
+                                        </svg>
+                                    </div>
+
+                                    <p className='maro_se3_e2'>
+                                        LinkedIn Corporation 2022
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
